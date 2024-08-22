@@ -1,0 +1,18 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: testmapping.sh
+  The time limit is 60:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The memory limit is: 4gb
+  The job will start running after: 202408161442.11
+  Job Name: testMap4
+  Queue: -q small
+  Constraints: 
+  Command typed:
+/scripts/run_script testmapping.sh     
+  Queue submit command:
+qsub -q small -j oe -N testMap4 -a 202408161442.11 -r n -M oaa0008@uah.edu -l walltime=60:00:00 -l select=ncpus=2:mpiprocs=2:mem=4000mb 
+  Job number: 98079
+ 

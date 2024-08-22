@@ -1,0 +1,61 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.parallel.97294.asax-pbs1
+  The memory limit is: 16gb
+  The job will start running after: 202408071858.15
+  Job Name: parallel
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asaxg005.asc.edu
+  Node list:  asaxg005.asc.edu asaxg005.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N parallel -a 202408071858.15 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=16000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress
+/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+Top 10 most common signs:
+thin: 15
+go: 14
+computer: 13
+before: 13
+help: 13
+cool: 13
+bowling: 13
+drink: 12
+thanksgiving: 12
+bed: 12
+Cluster 0: ['brown', 'girl', 'boy', 'pants', 'man']
+Cluster 1: ['america', 'europe', 'england', 'usa', 'france']
+Cluster 2: ['go', 'make', 'take', 'get', 'bring']
+Cluster 3: ['school', 'thing', 'city', 'town', 'education']
+Cluster 4: ['too', 'one', 'all', 'just', 'a']
+
+Most similar signs:
+Signs similar to 'book': ['books', 'author', 'memoir', 'Book', 'tome']
+Signs similar to 'drink': ['drinks', 'drinking', 'Drink', 'beverage', 'drank']
+Signs similar to 'computer': ['computers', 'Computer', 'software', 'laptop', 'computing']
+[nltk_data] Error loading punkt: <urlopen error [SSL:
+[nltk_data]     CERTIFICATE_VERIFY_FAILED] certificate verify failed
+[nltk_data]     (_ssl.c:852)>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify
+[nltk_data]     failed (_ssl.c:852)>
+
+Traceback (most recent call last):
+  File "parallel_dataset.py", line 90, in <module>
+    for key, value in parallel_data.items():
+AttributeError: 'list' object has no attribute 'items'

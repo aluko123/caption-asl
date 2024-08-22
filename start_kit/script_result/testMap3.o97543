@@ -1,0 +1,38 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: testmapping.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.testMap3.97543.asax-pbs1
+  The memory limit is: 4gb
+  The job will start running after: 202408091724.01
+  Job Name: testMap3
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script testmapping.sh     
+  Queue submit command:
+qsub -q express -j oe -N testMap3 -a 202408091724.01 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=4000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+Traceback (most recent call last):
+  File "caption_video.py", line 77, in <module>
+    process_caption(caption, mapping, video_folder, output_path)
+  File "caption_video.py", line 71, in process_caption
+    combine_videos_ffmpeg(video_ids, video_folder, output_path)
+  File "caption_video.py", line 56, in combine_videos_ffmpeg
+    subprocess.run(cmd, check=True)
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/subprocess.py", line 423, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg': 'ffmpeg'

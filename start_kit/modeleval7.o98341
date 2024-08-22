@@ -1,0 +1,187 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.modeleval7.98341.asax-pbs1
+  The memory limit is: 16gb
+  The job will start running after: 202408182042.46
+  Job Name: modeleval7
+  Queue: -q express
+  Constraints: 
+  Using  4  cores on master node  asax003.asc.edu
+  Node list:  asax003.asc.edu asax003.asc.edu asax003.asc.edu asax003.asc.edu
+  Cores:  4
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N modeleval7 -a 202408182042.46 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=4:mpiprocs=4:mem=16000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress
+Top 10 most common signs:
+thin: 15
+go: 14
+computer: 13
+before: 13
+help: 13
+cool: 13
+bowling: 13
+drink: 12
+thanksgiving: 12
+bed: 12
+Cluster 0: ['brown', 'pants', 'water', 'chicken', 'car']
+Cluster 1: ['too', 'one', 'all', 'just', 'a']
+Cluster 2: ['go', 'make', 'take', 'get', 'bring']
+Cluster 3: ['america', 'europe', 'england', 'usa', 'france']
+Cluster 4: ['school', 'city', 'town', 'thing', 'education']
+
+Most similar signs:
+Signs similar to 'book': ['books', 'author', 'memoir', 'Book', 'tome']
+Signs similar to 'drink': ['drinks', 'drinking', 'Drink', 'beverage', 'drank']
+Signs similar to 'computer': ['computers', 'Computer', 'software', 'laptop', 'computing']
+('The book rests on the table before the chair.', 'BOOK ON TABLE BEFORE CHAIR')
+('The deaf woman and her cousin walked, carrying clothes.', 'DEAF WOMAN AND HER COUSIN CLOTHES')
+('The store had run out of candy, but I found some elsewhere.', 'STORE RUN OUT CANDY BUT I SOME')
+('The thin man finished his fine meal and left the restaurant.', 'THIN MAN HIS FINE AND LEFT RESTAURANT')
+('The black dog chased the blue ball around the bowling alley.', 'BLACK DOG BLUE BALL AROUND BOWLING')
+('The family gathered for a hot, homemade Thanksgiving meal.', 'FAMILY FOR A HOT THANKSGIVING')
+('The woman studied the language to work towards graduation.', 'WOMAN LANGUAGE TO WORK GRADUATION')
+('The bird flew into the corn field, changing the color.', 'BIRD CORN COLOR')
+('The basketball player's three-point shot earned the school a win.', 'BASKETBALL PLAYER S THREE POINT SCHOOL A WIN')
+('Heavy snowfall made the city's roads slick and dangerous.', 'HEAVY CITY S AND DANGEROUS')
+('The computer sits on the chair before the table.', 'COMPUTER ON CHAIR BEFORE TABLE')
+('Helping her cousin, the deaf woman walked and carried clothes.', 'HER COUSIN DEAF WOMAN AND CLOTHES')
+('Despite the limited supply, I was able to buy some candy.', 'I ABLE TO BUY SOME CANDY')
+('Finishing his fine meal, the thin man departed the restaurant.', 'HIS FINE THIN MAN RESTAURANT')
+('Chasing the blue ball, the black dog played at the bowling alley.', 'BLUE BALL BLACK DOG BOWLING')
+('The family savored their hot, homemade Thanksgiving feast.', 'FAMILY THEIR HOT THANKSGIVING')
+('Graduation was the goal of the woman's language studies.', 'GRADUATION GOAL WOMAN S LANGUAGE')
+('The color changed when the bird flew into the corn field.', 'COLOR WHEN BIRD CORN')
+('The school celebrated the basketball player's three-point shot.', 'SCHOOL BASKETBALL PLAYER S THREE POINT')
+('Dangerous, slick roads resulted from the city's heavy snowfall.', 'DANGEROUS FROM CITY S HEAVY')
+('The table holds a book, which is a computer before the chair.', 'TABLE A BOOK WHICH A COMPUTER BEFORE CHAIR')
+('As they walked, the deaf woman's cousin helped carry the clothes.', 'THEY DEAF WOMAN S COUSIN CARRY CLOTHES')
+('I managed to purchase some candy, even with the store's shortage.', 'I TO PURCHASE SOME CANDY WITH STORE S')
+('After finishing his fine meal, the thin man left the restaurant.', 'AFTER HIS FINE THIN MAN LEFT RESTAURANT')
+('The black dog played with the blue ball, chasing it at the table.', 'BLACK DOG WITH BLUE BALL TABLE')
+('Gathering for Thanksgiving, the family enjoyed a hot, homemade meal.', 'FOR THANKSGIVING FAMILY A HOT')
+('The woman's language studies were part of her graduation work.', 'WOMAN S LANGUAGE PART HER GRADUATION WORK')
+('Entering the corn field, the bird altered the surrounding color.', 'CORN BIRD COLOR')
+('The school's victory came thanks to the basketball player's shot.', 'SCHOOL S TO BASKETBALL PLAYER S')
+('Heavy snowfall led to dangerous, slick conditions on city roads.', 'HEAVY TO DANGEROUS ON CITY')
+('A computer rests on the table before the book on the chair.', 'A COMPUTER ON TABLE BEFORE BOOK ON CHAIR')
+('Carrying clothes, the deaf woman walked with her helpful cousin.', 'CLOTHES DEAF WOMAN WITH HER COUSIN')
+('The store had limited candy, but I was still able to buy some.', 'STORE CANDY BUT I STILL ABLE TO BUY SOME')
+('Leaving the restaurant, the thin man had completed his fine meal.', 'RESTAURANT THIN MAN HIS FINE')
+('Chasing the blue ball, the black dog played at the bowling alley.', 'BLUE BALL BLACK DOG BOWLING')
+('The family gathered to enjoy a hot, homemade Thanksgiving feast.', 'FAMILY TO ENJOY A HOT THANKSGIVING')
+('Graduation was the focus of the woman's language studies.', 'GRADUATION WOMAN S LANGUAGE')
+('The bird's flight into the corn field changed the surrounding color.', 'BIRD S CORN COLOR')
+('The school celebrated their win thanks to the basketball player.', 'SCHOOL THEIR WIN TO BASKETBALL PLAYER')
+('Slick, dangerous roads resulted from the city's heavy snowfall.', 'DANGEROUS FROM CITY S HEAVY')
+('The chair holds a book, which is a computer before the table.', 'CHAIR A BOOK WHICH A COMPUTER BEFORE TABLE')
+('The deaf woman's cousin assisted her in carrying the clothes.', 'DEAF WOMAN S COUSIN HER IN CLOTHES')
+('I found candy to buy, even though the store's supply was limited.', 'I CANDY TO BUY STORE S')
+('The thin man left the restaurant after finishing his fine meal.', 'THIN MAN LEFT RESTAURANT AFTER HIS FINE')
+('Playing with the blue ball, the black dog chased it around the table.', 'WITH BLUE BALL BLACK DOG AROUND TABLE')
+('Gathered for Thanksgiving, the family savored a hot, homemade meal.', 'FOR THANKSGIVING FAMILY A HOT')
+('The woman's language studies were part of her graduation goals.', 'WOMAN S LANGUAGE PART HER GRADUATION')
+('Color was altered when the bird flew into the corn field.', 'COLOR WHEN BIRD CORN')
+('The school's victory was secured by the basketball player's shot.', 'SCHOOL S BASKETBALL PLAYER S')
+('Heavy snowfall created slick, dangerous conditions on city roads.', 'HEAVY DANGEROUS ON CITY')
+Vocabulary size: 263
+Sample src: tensor([  2, 237, 167, 247, 186, 127,  12, 200, 127,  93,   3])
+Sample trg: tensor([  2, 198, 205,  32, 142, 197,   3])
+Vocabulary size: 263
+Epoch: 1, Loss: 5.5570
+English: I want to read a book and drink water using my computer
+ASL Gloss: MAN <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 2, Loss: 5.5219
+English: I want to read a book and drink water using my computer
+ASL Gloss: MAN <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 3, Loss: 5.4549
+English: I want to read a book and drink water using my computer
+ASL Gloss: <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 4, Loss: 5.3838
+English: I want to read a book and drink water using my computer
+ASL Gloss: <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 5, Loss: 5.2427
+English: I want to read a book and drink water using my computer
+ASL Gloss: <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 6, Loss: 4.7805
+English: I want to read a book and drink water using my computer
+ASL Gloss: <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+
+
+Epoch: 7, Loss: 4.2129
+English: I want to read a book and drink water using my computer
+ASL Gloss: <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 8, Loss: 4.0357
+English: I want to read a book and drink water using my computer
+ASL Gloss: <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 9, Loss: 4.1856
+English: I want to read a book and drink water using my computer
+ASL Gloss: <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 10, Loss: 4.4738
+English: I want to read a book and drink water using my computer
+ASL Gloss: <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 11, Loss: 4.0959
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 12, Loss: 3.6213
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN
+
+Epoch: 13, Loss: 3.3833
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN S
+
+Epoch: 14, Loss: 3.4163
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN S
+
+Epoch: 15, Loss: 3.3913
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN S S
+
+Epoch: 16, Loss: 3.2287
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN S S
+
+Epoch: 17, Loss: 3.1575
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN S S <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 18, Loss: 3.1187
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN WOMAN S S <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 19, Loss: 3.0940
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN WOMAN S S <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+Epoch: 20, Loss: 2.9934
+English: I want to read a book and drink water using my computer
+ASL Gloss: WOMAN WOMAN S S
+
+Original: I want to read a book and drink water using my computer
+Encoded: [155, 1, 242, 1, 180, 167, 103, 1, 1, 1, 1, 182]
+Decoded: I <unk> to <unk> a book and <unk> <unk> <unk> <unk> computer

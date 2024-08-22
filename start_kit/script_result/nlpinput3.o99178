@@ -1,0 +1,32 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.nlpinput3.99178.asax-pbs1
+  The memory limit is: 8gb
+  The job will start running after: 202408221415.08
+  Job Name: nlpinput3
+  Queue: -q express
+  Constraints: 
+  Using  4  cores on master node  asaxg005.asc.edu
+  Node list:  asaxg005.asc.edu asaxg005.asc.edu asaxg005.asc.edu asaxg005.asc.edu
+  Cores:  4
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N nlpinput3 -a 202408221415.08 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=4:mpiprocs=4:mem=8000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+Traceback (most recent call last):
+  File "input_nlp.py", line 21, in <module>
+    nlp = spacy.load('en_core_web_sm')
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/spacy/__init__.py", line 18, in load
+    return util.load_model(name, **overrides)
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/spacy/util.py", line 119, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.

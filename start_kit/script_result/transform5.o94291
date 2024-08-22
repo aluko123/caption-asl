@@ -1,0 +1,86 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.transform5.94291.asax-pbs1
+  The memory limit is: 16gb
+  The job will start running after: 202407251141.57
+  Job Name: transform5
+  Queue: -q express
+  Constraints: 
+  Using  4  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu
+  Cores:  4
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N transform5 -a 202407251141.57 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=4:mpiprocs=4:mem=16000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress
+/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+Top 10 most common signs:
+thin: 15
+go: 14
+computer: 13
+before: 13
+help: 13
+cool: 13
+bowling: 13
+drink: 12
+thanksgiving: 12
+bed: 12
+Cluster 0: ['brown', 'girl', 'boy', 'pants', 'chicken']
+Cluster 1: ['school', 'thing', 'city', 'town', 'house']
+Cluster 2: ['too', 'one', 'all', 'just', 'a']
+Cluster 3: ['america', 'europe', 'england', 'usa', 'france']
+Cluster 4: ['go', 'make', 'take', 'bring', 'get']
+
+Most similar signs:
+Signs similar to 'book': ['books', 'author', 'memoir', 'Book', 'tome']
+Signs similar to 'drink': ['drinks', 'drinking', 'Drink', 'beverage', 'drank']
+Signs similar to 'computer': ['computers', 'Computer', 'software', 'laptop', 'computing']
+[nltk_data] Error loading punkt: <urlopen error [SSL:
+[nltk_data]     CERTIFICATE_VERIFY_FAILED] certificate verify failed
+[nltk_data]     (_ssl.c:852)>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify
+[nltk_data]     failed (_ssl.c:852)>
+Generated 1600 training samples and 400 test samples.
+
+Example parallel data:
+English: The cold is here
+ASL Gloss: COLD HERE
+
+English: The lend is here
+ASL Gloss: LEND HERE
+
+English: The dig is here
+ASL Gloss: DIG HERE
+
+English: The poop is here
+ASL Gloss: POOP HERE
+
+English: It is busy
+ASL Gloss: IT BUSY
+
+
+trg shape: torch.Size([2])
+Traceback (most recent call last):
+  File "transform_encoder.py", line 160, in <module>
+    loss = train(model, src, trg, optimizer, criterion, CLIP)
+  File "transform_encoder.py", line 144, in train
+    output = model(src, trg)
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/torch/nn/modules/module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "transform_encoder.py", line 89, in forward
+    batch_size = trg.shape[1]
+IndexError: tuple index out of range

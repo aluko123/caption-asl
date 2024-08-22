@@ -1,0 +1,126 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.modeleval2.97539.asax-pbs1
+  The memory limit is: 16gb
+  The job will start running after: 202408091645.26
+  Job Name: modeleval2
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N modeleval2 -a 202408091645.26 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=16000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress
+/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+Top 10 most common signs:
+thin: 15
+go: 14
+computer: 13
+before: 13
+help: 13
+cool: 13
+bowling: 13
+drink: 12
+thanksgiving: 12
+bed: 12
+Cluster 0: ['school', 'thing', 'city', 'town', 'education']
+Cluster 1: ['brown', 'girl', 'boy', 'pants', 'car']
+Cluster 2: ['go', 'make', 'take', 'bring', 'get']
+Cluster 3: ['america', 'europe', 'england', 'usa', 'france']
+Cluster 4: ['too', 'one', 'all', 'just', 'a']
+
+Most similar signs:
+Signs similar to 'book': ['books', 'author', 'memoir', 'Book', 'tome']
+Signs similar to 'drink': ['drinks', 'drinking', 'Drink', 'beverage', 'drank']
+Signs similar to 'computer': ['computers', 'Computer', 'software', 'laptop', 'computing']
+('The book rests on the table before the chair.', 'BOOK ON TABLE BEFORE CHAIR')
+('The deaf woman and her cousin walked, carrying clothes.', 'DEAF WOMAN AND HER COUSIN CLOTHES')
+('The store had run out of candy, but I found some elsewhere.', 'STORE RUN OUT CANDY BUT I SOME')
+('The thin man finished his fine meal and left the restaurant.', 'THIN MAN HIS FINE AND LEFT RESTAURANT')
+('The black dog chased the blue ball around the bowling alley.', 'BLACK DOG BLUE BALL AROUND BOWLING')
+('The family gathered for a hot, homemade Thanksgiving meal.', 'FAMILY FOR A HOT THANKSGIVING')
+('The woman studied the language to work towards graduation.', 'WOMAN LANGUAGE TO WORK GRADUATION')
+('The bird flew into the corn field, changing the color.', 'BIRD CORN COLOR')
+('The basketball player's three-point shot earned the school a win.', 'BASKETBALL PLAYER S THREE POINT SCHOOL A WIN')
+('Heavy snowfall made the city's roads slick and dangerous.', 'HEAVY CITY S AND DANGEROUS')
+('The computer sits on the chair before the table.', 'COMPUTER ON CHAIR BEFORE TABLE')
+('Helping her cousin, the deaf woman walked and carried clothes.', 'HER COUSIN DEAF WOMAN AND CLOTHES')
+('Despite the limited supply, I was able to buy some candy.', 'I ABLE TO BUY SOME CANDY')
+('Finishing his fine meal, the thin man departed the restaurant.', 'HIS FINE THIN MAN RESTAURANT')
+('Chasing the blue ball, the black dog played at the bowling alley.', 'BLUE BALL BLACK DOG BOWLING')
+('The family savored their hot, homemade Thanksgiving feast.', 'FAMILY THEIR HOT THANKSGIVING')
+('Graduation was the goal of the woman's language studies.', 'GRADUATION GOAL WOMAN S LANGUAGE')
+('The color changed when the bird flew into the corn field.', 'COLOR WHEN BIRD CORN')
+('The school celebrated the basketball player's three-point shot.', 'SCHOOL BASKETBALL PLAYER S THREE POINT')
+('Dangerous, slick roads resulted from the city's heavy snowfall.', 'DANGEROUS FROM CITY S HEAVY')
+('The table holds a book, which is a computer before the chair.', 'TABLE A BOOK WHICH A COMPUTER BEFORE CHAIR')
+('As they walked, the deaf woman's cousin helped carry the clothes.', 'THEY DEAF WOMAN S COUSIN CARRY CLOTHES')
+('I managed to purchase some candy, even with the store's shortage.', 'I TO PURCHASE SOME CANDY WITH STORE S')
+('After finishing his fine meal, the thin man left the restaurant.', 'AFTER HIS FINE THIN MAN LEFT RESTAURANT')
+('The black dog played with the blue ball, chasing it at the table.', 'BLACK DOG WITH BLUE BALL TABLE')
+('Gathering for Thanksgiving, the family enjoyed a hot, homemade meal.', 'FOR THANKSGIVING FAMILY A HOT')
+('The woman's language studies were part of her graduation work.', 'WOMAN S LANGUAGE PART HER GRADUATION WORK')
+('Entering the corn field, the bird altered the surrounding color.', 'CORN BIRD COLOR')
+('The school's victory came thanks to the basketball player's shot.', 'SCHOOL S TO BASKETBALL PLAYER S')
+('Heavy snowfall led to dangerous, slick conditions on city roads.', 'HEAVY TO DANGEROUS ON CITY')
+('A computer rests on the table before the book on the chair.', 'A COMPUTER ON TABLE BEFORE BOOK ON CHAIR')
+('Carrying clothes, the deaf woman walked with her helpful cousin.', 'CLOTHES DEAF WOMAN WITH HER COUSIN')
+('The store had limited candy, but I was still able to buy some.', 'STORE CANDY BUT I STILL ABLE TO BUY SOME')
+('Leaving the restaurant, the thin man had completed his fine meal.', 'RESTAURANT THIN MAN HIS FINE')
+('Chasing the blue ball, the black dog played at the bowling alley.', 'BLUE BALL BLACK DOG BOWLING')
+('The family gathered to enjoy a hot, homemade Thanksgiving feast.', 'FAMILY TO ENJOY A HOT THANKSGIVING')
+('Graduation was the focus of the woman's language studies.', 'GRADUATION WOMAN S LANGUAGE')
+('The bird's flight into the corn field changed the surrounding color.', 'BIRD S CORN COLOR')
+('The school celebrated their win thanks to the basketball player.', 'SCHOOL THEIR WIN TO BASKETBALL PLAYER')
+('Slick, dangerous roads resulted from the city's heavy snowfall.', 'DANGEROUS FROM CITY S HEAVY')
+('The chair holds a book, which is a computer before the table.', 'CHAIR A BOOK WHICH A COMPUTER BEFORE TABLE')
+('The deaf woman's cousin assisted her in carrying the clothes.', 'DEAF WOMAN S COUSIN HER IN CLOTHES')
+('I found candy to buy, even though the store's supply was limited.', 'I CANDY TO BUY STORE S')
+('The thin man left the restaurant after finishing his fine meal.', 'THIN MAN LEFT RESTAURANT AFTER HIS FINE')
+('Playing with the blue ball, the black dog chased it around the table.', 'WITH BLUE BALL BLACK DOG AROUND TABLE')
+('Gathered for Thanksgiving, the family savored a hot, homemade meal.', 'FOR THANKSGIVING FAMILY A HOT')
+('The woman's language studies were part of her graduation goals.', 'WOMAN S LANGUAGE PART HER GRADUATION')
+('Color was altered when the bird flew into the corn field.', 'COLOR WHEN BIRD CORN')
+('The school's victory was secured by the basketball player's shot.', 'SCHOOL S BASKETBALL PLAYER S')
+('Heavy snowfall created slick, dangerous conditions on city roads.', 'HEAVY DANGEROUS ON CITY')
+Vocabulary size: 263
+Sample src: tensor([  2,  97,  38, 103, 245, 142, 190, 233, 142,  87,   3])
+Sample trg: tensor([  2,  72, 230, 110, 165, 191,   3])
+Vocabulary size: 263
+Traceback (most recent call last):
+  File "transform_encoder.py", line 232, in <module>
+    loss = train(model, src, trg, optimizer, criterion, CLIP)
+  File "transform_encoder.py", line 186, in train
+    output = model(src, trg)
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/torch/nn/modules/module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "transform_encoder.py", line 123, in forward
+    output, hidden, cell = self.decoder(input, hidden, cell)
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/torch/nn/modules/module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "transform_encoder.py", line 93, in forward
+    output, (hidden, cell) = self.rnn(embedded, (hidden, cell))
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/torch/nn/modules/module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/torch/nn/modules/rnn.py", line 175, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/torch/nn/modules/rnn.py", line 152, in check_forward_args
+    'Expected hidden[0] size {}, got {}')
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/torch/nn/modules/rnn.py", line 148, in check_hidden_size
+    raise RuntimeError(msg.format(expected_hidden_size, tuple(hx.size())))
+RuntimeError: Expected hidden[0] size (2, 11, 512), got (2, 15, 512)

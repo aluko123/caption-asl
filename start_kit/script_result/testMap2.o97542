@@ -1,0 +1,32 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: testmapping.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.testMap2.97542.asax-pbs1
+  The memory limit is: 4gb
+  The job will start running after: 202408091722.18
+  Job Name: testMap2
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script testmapping.sh     
+  Queue submit command:
+qsub -q express -j oe -N testMap2 -a 202408091722.18 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=4000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+Traceback (most recent call last):
+  File "caption_video.py", line 77, in <module>
+    process_caption(caption, mapping, video_folder, output_path)
+  File "caption_video.py", line 71, in process_caption
+    combine_videos_ffmpeg(video_ids, video_folder, output_path)
+  File "caption_video.py", line 32, in combine_videos_ffmpeg
+    video_path = os.path.join(video_folder/f"{video_id}.mp4")
+TypeError: unsupported operand type(s) for /: 'str' and 'str'

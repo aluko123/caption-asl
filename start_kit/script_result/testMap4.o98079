@@ -1,0 +1,30 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: testmapping.sh
+  The time limit is 60:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.testMap4.98079.asax-pbs1
+  The memory limit is: 4gb
+  The job will start running after: 202408161442.11
+  Job Name: testMap4
+  Queue: -q small
+  Constraints: 
+  Using  2  cores on master node  asax011.asc.edu
+  Node list:  asax011.asc.edu asax011.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script testmapping.sh     
+  Queue submit command:
+qsub -q small -j oe -N testMap4 -a 202408161442.11 -r n -M oaa0008@uah.edu -l walltime=60:00:00 -l select=ncpus=2:mpiprocs=2:mem=4000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+Traceback (most recent call last):
+  File "caption_video.py", line 87, in <module>
+    mapping = load_gloss_to_video_mapping('gloss_to_video.txt')
+  File "caption_video.py", line 7, in load_gloss_to_video_mapping
+    with open(file_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'gloss_to_video.txt'

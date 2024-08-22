@@ -1,0 +1,124 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.translate4.97370.asax-pbs1
+  The memory limit is: 16gb
+  The job will start running after: 202408081405.42
+  Job Name: translate4
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N translate4 -a 202408081405.42 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=16000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+('The deaf doctor eats pizza.', 'DEAF DOCTOR PIZZA')
+('Curious students study sign language.', 'CURIOUS STUDY SIGN LANGUAGE')
+('Hippopotamuses cannot drive airplanes.', 'CANNOT DRIVE')
+('She walks to the library every Tuesday.', 'SHE TO LIBRARY EVERY TUESDAY')
+('The purple flower grows in the garden.', 'PURPLE FLOWER IN')
+('Brave firefighters rescue cats from trees.', 'BRAVE RESCUE FROM')
+('The chef cooks delicious spaghetti for dinner.', 'DELICIOUS FOR DINNER')
+('Butterflies fly through the peaceful meadow.', 'FLY THROUGH PEACEFUL')
+('The tired teacher drinks coffee at noon.', 'TIRED TEACHER COFFEE NOON')
+('Clever detectives solve mysterious crimes quickly.', 'CLEVER SOLVE')
+('The curious dolphin swims near the boat.', 'CURIOUS DOLPHIN NEAR BOAT')
+('Busy students practice mathematics after school.', 'BUSY PRACTICE AFTER SCHOOL')
+('Colorful parrots cannot read newspapers.', 'CANNOT READ')
+('He buys fresh vegetables at the farmers' market.', '')
+('The old lighthouse stands tall on the rocky shore.', 'OLD TALL ON')
+('Excited children celebrate birthdays with cake.', 'EXCITED CHILDREN CELEBRATE WITH CAKE')
+('The skilled carpenter builds sturdy furniture.', 'FURNITURE')
+('Fluffy clouds float across the bright blue sky.', 'ACROSS BRIGHT BLUE SKY')
+('The nervous actor forgets his lines on stage.', 'NERVOUS ACTOR HIS ON')
+('Hungry squirrels gather acorns for winter.', 'HUNGRY GATHER FOR WINTER')
+('The diligent scientist conducts important research.', 'SCIENTIST IMPORTANT RESEARCH')
+('Playful kittens chase small toys around the room.', 'CHASE SMALL AROUND ROOM')
+('The experienced pilot navigates through stormy weather.', 'PILOT THROUGH WEATHER')
+('Fragrant roses bloom in the well-tended garden.', 'IN')
+('The ambitious chef creates unique flavor combinations.', 'UNIQUE')
+('Curious tourists explore ancient ruins carefully.', 'CURIOUS')
+('The talented musician composes beautiful melodies.', 'BEAUTIFUL')
+('Energetic puppies play fetch in the park.', 'PLAY IN')
+('The skilled seamstress mends torn clothing expertly.', '')
+('Colorful hot air balloons rise gently into the sky.', 'HOT RISE SKY')
+('The patient teacher explains difficult concepts clearly.', 'PATIENT TEACHER DIFFICULT')
+('Noisy seagulls circle above the fishing boats.', 'CIRCLE ABOVE FISHING')
+('The dedicated athlete trains hard for the Olympics.', 'HARD FOR OLYMPICS')
+('Friendly neighbors share homemade cookies over the fence.', 'FRIENDLY SHARE OVER FENCE')
+('The curious archaeologist unearths ancient artifacts carefully.', 'CURIOUS')
+('Mischievous monkeys steal bananas from unsuspecting tourists.', 'STEAL FROM')
+('The creative artist paints vibrant landscapes on canvas.', 'ARTIST ON')
+('Elegant swans glide across the tranquil lake.', 'ACROSS TRANQUIL')
+('The skilled mechanic repairs complex engines efficiently.', 'MECHANIC COMPLEX')
+('Fragile snowflakes fall softly on the quiet town.', 'ON QUIET TOWN')
+('The enthusiastic tour guide shares interesting historical facts.', 'GUIDE INTERESTING')
+('Playful dolphins leap gracefully through ocean waves.', 'THROUGH OCEAN')
+('The diligent student practices sign language every day.', 'STUDENT SIGN LANGUAGE EVERY DAY')
+('Majestic eagles soar high above mountain peaks.', 'HIGH ABOVE MOUNTAIN')
+('The experienced nurse cares for patients compassionately.', 'NURSE FOR')
+('Curious children explore tide pools at the beach.', 'CURIOUS CHILDREN')
+('The talented chef prepares exquisite meals for guests.', 'FOR')
+('Colorful kites dance in the strong summer breeze.', 'DANCE IN STRONG SUMMER BREEZE')
+('The skilled photographer captures breathtaking moments expertly.', 'PHOTOGRAPHER')
+('Friendly baristas serve aromatic coffee to sleepy customers.', 'FRIENDLY SERVE COFFEE TO SLEEPY')
+('The dedicated librarian organizes books meticulously.', 'LIBRARIAN')
+('Graceful ballerinas perform intricate dance routines.', 'DANCE')
+('The innovative engineer designs eco-friendly buildings.', 'ENGINEER FRIENDLY')
+('Hungry bears fish for salmon in rushing rivers.', 'HUNGRY FISH FOR IN')
+('The passionate teacher inspires students to love learning.', 'TEACHER TO LOVE')
+('Agile rock climbers scale steep cliffs carefully.', 'ROCK')
+('The skilled pilot lands the plane smoothly on the runway.', 'PILOT ON')
+('Colorful coral reefs teem with diverse marine life.', 'WITH')
+('The talented violinist performs challenging concertos flawlessly.', '')
+('Curious astronomers study distant galaxies through powerful telescopes.', 'CURIOUS STUDY THROUGH')
+('The dedicated firefighter risks his life to save others.', 'FIREFIGHTER HIS TO SAVE')
+('Playful otters swim and dive in the clear river.', 'SWIM AND DIVE IN CLEAR RIVER')
+('The experienced detective solves complex murder mysteries.', 'DETECTIVE COMPLEX MURDER')
+('Fragrant lavender fields attract busy honeybees.', 'ATTRACT BUSY')
+('The skilled potter shapes beautiful vases on the wheel.', 'BEAUTIFUL ON')
+('Majestic lions roam the vast African savannah.', '')
+('The passionate chef experiments with exotic spices.', 'WITH')
+('Colorful hot air balloons float over picturesque landscapes.', 'HOT OVER')
+('The talented actor portrays complex characters convincingly.', 'ACTOR COMPLEX')
+('Curious scientists explore the depths of the ocean.', 'CURIOUS OCEAN')
+('The dedicated teacher helps students overcome learning challenges.', 'TEACHER OVERCOME')
+('Playful puppies chase their tails in circles.', 'CHASE THEIR IN')
+('The experienced gardener cultivates prize-winning roses.', '')
+('Graceful figure skaters glide across the ice rink.', 'ACROSS')
+('The innovative architect designs futuristic skyscrapers.', '')
+('Noisy parrots mimic human speech in the pet store.', 'HUMAN SPEECH IN PET STORE')
+('The skilled surgeon performs delicate operations precisely.', 'SURGEON')
+('Colorful butterflies flit from flower to flower.', 'FROM FLOWER TO FLOWER')
+('The talented street artist creates stunning murals.', 'STREET ARTIST')
+('Curious archaeologists uncover ancient civilizations' secrets.', 'CURIOUS')
+('The dedicated environmentalist works to protect endangered species.', 'TO PROTECT')
+('Playful dolphins swim alongside sailing boats.', 'SWIM')
+('The experienced mountain guide leads hikers safely.', 'MOUNTAIN GUIDE')
+('Fragrant apple pies cool on the windowsill.', 'APPLE COOL ON')
+('The skilled carpenter crafts beautiful wooden furniture.', 'BEAUTIFUL FURNITURE')
+('Majestic redwood trees tower over the forest floor.', 'TOWER OVER FOREST FLOOR')
+('The passionate marine biologist studies coral reef ecosystems.', '')
+('Colorful hot air balloons dot the morning sky.', 'HOT MORNING SKY')
+('The talented musician composes movie soundtracks.', 'MOVIE')
+('Curious children ask endless questions about everything.', 'CURIOUS CHILDREN ASK ABOUT EVERYTHING')
+('The dedicated athlete trains for the marathon daily.', 'FOR DAILY')
+('Playful sea otters float on their backs in kelp beds.', 'SEA ON THEIR IN')
+('The experienced pilot navigates through turbulent storms.', 'PILOT THROUGH')
+('Fragrant jasmine blooms in the moonlit garden.', 'IN')
+('The skilled watchmaker repairs intricate timepieces.', '')
+('Majestic whales breach the ocean's surface spectacularly.', 'OCEAN S SURFACE')
+('The passionate art historian studies Renaissance paintings.', 'ART')
+('Colorful fireworks explode in the night sky.', 'EXPLODE IN NIGHT SKY')
+('The talented chef creates edible works of art.', 'ART')
+('Curious astronomers search for signs of extraterrestrial life.', 'CURIOUS SEARCH FOR')

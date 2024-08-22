@@ -1,0 +1,51 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.transform1.94256.asax-pbs1
+  The memory limit is: 16gb
+  The job will start running after: 202407251030.19
+  Job Name: transform1
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N transform1 -a 202407251030.19 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=16000mb 
+
+Lmod is automatically replacing "pytorch/2019" with "anaconda/3-2024.02".
+
+/apps/x86-64/apps/anaconda_3-2024.02/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+Top 10 most common signs:
+thin: 15
+go: 14
+computer: 13
+before: 13
+help: 13
+cool: 13
+bowling: 13
+drink: 12
+thanksgiving: 12
+bed: 12
+Cluster 0: ['america', 'europe', 'england', 'usa', 'france']
+Cluster 1: ['too', 'one', 'all', 'just', 'a']
+Cluster 2: ['go', 'make', 'take', 'get', 'bring']
+Cluster 3: ['school', 'city', 'town', 'thing', 'education']
+Cluster 4: ['brown', 'pants', 'water', 'chicken', 'car']
+
+Most similar signs:
+Signs similar to 'book': ['books', 'author', 'memoir', 'Book', 'tome']
+Signs similar to 'drink': ['drinks', 'drinking', 'Drink', 'beverage', 'drank']
+Signs similar to 'computer': ['computers', 'Computer', 'software', 'laptop', 'computing']
+Traceback (most recent call last):
+  File "/home/uahoxa001/WLASL/start_kit/transform_encoder.py", line 7, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

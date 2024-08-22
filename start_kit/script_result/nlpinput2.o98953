@@ -1,0 +1,82 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.nlpinput2.98953.asax-pbs1
+  The memory limit is: 4gb
+  The job will start running after: 202408211516.22
+  Job Name: nlpinput2
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asaxg005.asc.edu
+  Node list:  asaxg005.asc.edu asaxg005.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N nlpinput2 -a 202408211516.22 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=4000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+[nltk_data] Error loading stopwords: <urlopen error [SSL:
+[nltk_data]     CERTIFICATE_VERIFY_FAILED] certificate verify failed
+[nltk_data]     (_ssl.c:852)>
+Traceback (most recent call last):
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/nltk/corpus/util.py", line 80, in __load
+    try: root = nltk.data.find('{}/{}'.format(self.subdir, zip_name))
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/nltk/data.py", line 673, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  Searched in:
+    - '/home/uahoxa001/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/apps/x86-64/apps/pytorch_2019/nltk_data'
+    - '/apps/x86-64/apps/pytorch_2019/lib/nltk_data'
+**********************************************************************
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "input_nlp.py", line 7, in <module>
+    stop_words = set(stopwords.words('english'))
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/nltk/corpus/util.py", line 116, in __getattr__
+    self.__load()
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/nltk/corpus/util.py", line 81, in __load
+    except LookupError: raise e
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/nltk/corpus/util.py", line 78, in __load
+    root = nltk.data.find('{}/{}'.format(self.subdir, self.__name))
+  File "/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/nltk/data.py", line 673, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mstopwords[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('stopwords')
+  [0m
+  Searched in:
+    - '/home/uahoxa001/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/apps/x86-64/apps/pytorch_2019/nltk_data'
+    - '/apps/x86-64/apps/pytorch_2019/lib/nltk_data'
+**********************************************************************
+

@@ -1,0 +1,67 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.parallel2.92072.asax-pbs1
+  The memory limit is: 16gb
+  The job will start running after: 202407151350.14
+  Job Name: parallel2
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asax009.asc.edu
+  Node list:  asax009.asc.edu asax009.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N parallel2 -a 202407151350.14 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=16000mb 
+/apps/x86-64/apps/anaconda_3-2024.02/lib/python3.11/site-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+[nltk_data] Downloading package punkt to /home/uahoxa001/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /home/uahoxa001/nltk_data...
+[nltk_data]   Unzipping taggers/averaged_perceptron_tagger.zip.
+Top 10 most common signs:
+thin: 15
+go: 14
+computer: 13
+before: 13
+help: 13
+cool: 13
+bowling: 13
+drink: 12
+thanksgiving: 12
+bed: 12
+Cluster 0: ['school', 'city', 'town', 'thing', 'education']
+Cluster 1: ['america', 'europe', 'england', 'usa', 'france']
+Cluster 2: ['too', 'one', 'all', 'just', 'a']
+Cluster 3: ['go', 'make', 'take', 'get', 'bring']
+Cluster 4: ['brown', 'pants', 'chicken', 'boy', 'water']
+
+Most similar signs:
+Signs similar to 'book': ['books', 'author', 'memoir', 'Book', 'tome']
+Signs similar to 'drink': ['drinks', 'drinking', 'Drink', 'beverage', 'drank']
+Signs similar to 'computer': ['computers', 'Computer', 'software', 'laptop', 'computing']
+Generated 1600 training samples and 400 test samples.
+
+Example parallel data:
+English: the investigate
+ASL Gloss: investigate
+
+English: the helmet
+ASL Gloss: helmet
+
+English: big
+ASL Gloss: big
+
+English: the catholic
+ASL Gloss: catholic
+
+English: the japan
+ASL Gloss: japan
+

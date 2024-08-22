@@ -1,0 +1,18 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The memory limit is: 16gb
+  The job will start running after: 202408182004.58
+  Job Name: modeleval6
+  Queue: -q express
+  Constraints: 
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N modeleval6 -a 202408182004.58 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=4:mpiprocs=4:mem=16000mb 
+  Job number: 98340
+ 

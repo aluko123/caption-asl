@@ -1,0 +1,56 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.transform3.94267.asax-pbs1
+  The memory limit is: 16gb
+  The job will start running after: 202407251054.50
+  Job Name: transform3
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N transform3 -a 202407251054.50 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=16000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+paramiko missing, opening SSH/SCP/SFTP paths will be disabled.  `pip install paramiko` to suppress
+/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+/apps/x86-64/apps/pytorch_2019/lib/python3.6/site-packages/gensim/matutils.py:737: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if np.issubdtype(vec.dtype, np.int):
+Top 10 most common signs:
+thin: 15
+go: 14
+computer: 13
+before: 13
+help: 13
+cool: 13
+bowling: 13
+drink: 12
+thanksgiving: 12
+bed: 12
+Cluster 0: ['school', 'thing', 'city', 'town', 'education']
+Cluster 1: ['america', 'europe', 'england', 'usa', 'france']
+Cluster 2: ['brown', 'pants', 'water', 'car', 'chicken']
+Cluster 3: ['go', 'make', 'take', 'get', 'bring']
+Cluster 4: ['too', 'one', 'all', 'just', 'a']
+
+Most similar signs:
+Signs similar to 'book': ['books', 'author', 'memoir', 'Book', 'tome']
+Signs similar to 'drink': ['drinks', 'drinking', 'Drink', 'beverage', 'drank']
+Signs similar to 'computer': ['computers', 'Computer', 'software', 'laptop', 'computing']
+Traceback (most recent call last):
+  File "transform_encoder.py", line 47, in <module>
+    tokenizer = Tokenizer(df['gloss'].unique)
+  File "transform_encoder.py", line 33, in __init__
+    self.gloss_to_id = {gloss: i for i, gloss in enumerate(glosses)}
+TypeError: 'method' object is not iterable

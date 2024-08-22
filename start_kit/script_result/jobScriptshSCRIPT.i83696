@@ -1,0 +1,19 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: jobScript.sh
+  The time limit is 60:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The memory limit is: 1gb
+  The job will start running after: 202406291314.10
+  Job Name: jobScriptshSCRIPT
+  Virtual queue: -q small
+  Queue: -q small
+  Constraints: 
+  Command typed:
+/scripts/run_script jobScript.sh     
+  Queue submit command:
+qsub -q small -j oe -N jobScriptshSCRIPT -a 202406291314.10 -r n -M oaa0008@uah.edu -l walltime=60:00:00 -l select=ncpus=1:mem=1000mb 
+  Job number: 83696
+ 

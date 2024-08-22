@@ -1,0 +1,28 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: testmapping.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.testMap.97540.asax-pbs1
+  The memory limit is: 2gb
+  The job will start running after: 202408091705.56
+  Job Name: testMap
+  Queue: -q express
+  Constraints: 
+  Using  2  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script testmapping.sh     
+  Queue submit command:
+qsub -q express -j oe -N testMap -a 202408091705.56 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=2:mpiprocs=2:mem=2000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+Traceback (most recent call last):
+  File "caption_video.py", line 25, in <module>
+    from moviepy.editor import VideoFileClip, concatenate_videoclips
+ModuleNotFoundError: No module named 'moviepy'

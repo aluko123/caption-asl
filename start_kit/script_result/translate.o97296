@@ -1,0 +1,30 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: run_analysis.sh
+  The time limit is 4:00:00 HH:MM:SS.
+  The target directory is: /home/uahoxa001/WLASL/start_kit
+  The working directory is:  /scratch-local/uahoxa001.translate.97296.asax-pbs1
+  The memory limit is: 16gb
+  The job will start running after: 202408072010.49
+  Job Name: translate
+  Queue: -q express
+  Constraints: 
+  Using  4  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu
+  Cores:  4
+  Command typed:
+/scripts/run_script run_analysis.sh     
+  Queue submit command:
+qsub -q express -j oe -N translate -a 202408072010.49 -r n -M oaa0008@uah.edu -l walltime=4:00:00 -l select=ncpus=4:mpiprocs=4:mem=16000mb 
+
+Lmod is automatically replacing "anaconda/3-2024.02" with "pytorch/2019".
+
+Traceback (most recent call last):
+  File "english_asl.py", line 6, in <module>
+    asl_words = {line.split("")[3].upper() for line in asl_data if line.strip()}
+  File "english_asl.py", line 6, in <setcomp>
+    asl_words = {line.split("")[3].upper() for line in asl_data if line.strip()}
+ValueError: empty separator
