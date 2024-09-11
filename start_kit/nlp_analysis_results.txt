@@ -1,0 +1,557 @@
+Sentence 1:
+sentence: The book rests on the table before the chair.
+Summarized sentence: The book rests on the table before the chair.
+tokens: ['The', 'book', 'rests', 'on', 'the', 'table', 'before', 'the', 'chair', '.']
+bigrams: [('The', 'book'), ('book', 'rests'), ('rests', 'on'), ('on', 'the'), ('the', 'table'), ('table', 'before'), ('before', 'the'), ('the', 'chair'), ('chair', '.')]
+pos_tags: [('The', 'DT'), ('book', 'NN'), ('rests', 'VBZ'), ('on', 'IN'), ('the', 'DT'), ('table', 'NN'), ('before', 'IN'), ('the', 'DT'), ('chair', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The book', 'the table', 'the chair']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('book', 1), ('rests', 1), ('table', 1)]
+
+Sentence 2:
+sentence: The deaf woman and her cousin walked, carrying clothes.
+Summarized sentence: The deaf woman and her cousin walked, carrying clothes.
+tokens: ['The', 'deaf', 'woman', 'and', 'her', 'cousin', 'walked', ',', 'carrying', 'clothes', '.']
+bigrams: [('The', 'deaf'), ('deaf', 'woman'), ('woman', 'and'), ('and', 'her'), ('her', 'cousin'), ('cousin', 'walked'), ('walked', ','), (',', 'carrying'), ('carrying', 'clothes'), ('clothes', '.')]
+pos_tags: [('The', 'DT'), ('deaf', 'NN'), ('woman', 'NN'), ('and', 'CC'), ('her', 'PRP$'), ('cousin', 'NN'), ('walked', 'VBD'), (',', ','), ('carrying', 'VBG'), ('clothes', 'NNS'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The deaf woman', 'her cousin', 'clothes']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('deaf', 1), ('woman', 1), ('cousin', 1)]
+
+Sentence 3:
+sentence: The store had run out of candy, but I found some elsewhere.
+Summarized sentence: The store had run out of candy, but I found some elsewhere.
+tokens: ['The', 'store', 'had', 'run', 'out', 'of', 'candy', ',', 'but', 'I', 'found', 'some', 'elsewhere', '.']
+bigrams: [('The', 'store'), ('store', 'had'), ('had', 'run'), ('run', 'out'), ('out', 'of'), ('of', 'candy'), ('candy', ','), (',', 'but'), ('but', 'I'), ('I', 'found'), ('found', 'some'), ('some', 'elsewhere'), ('elsewhere', '.')]
+pos_tags: [('The', 'DT'), ('store', 'NN'), ('had', 'VBD'), ('run', 'VBN'), ('out', 'IN'), ('of', 'IN'), ('candy', 'NN'), (',', ','), ('but', 'CC'), ('I', 'PRP'), ('found', 'VBD'), ('some', 'DT'), ('elsewhere', 'RB'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The store', 'candy', 'I', 'some']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('store', 1), ('run', 1), ('candy', 1)]
+
+Sentence 4:
+sentence: The thin man finished his fine meal and left the restaurant.
+Summarized sentence: The thin man finished his fine meal and left the restaurant.
+tokens: ['The', 'thin', 'man', 'finished', 'his', 'fine', 'meal', 'and', 'left', 'the', 'restaurant', '.']
+bigrams: [('The', 'thin'), ('thin', 'man'), ('man', 'finished'), ('finished', 'his'), ('his', 'fine'), ('fine', 'meal'), ('meal', 'and'), ('and', 'left'), ('left', 'the'), ('the', 'restaurant'), ('restaurant', '.')]
+pos_tags: [('The', 'DT'), ('thin', 'JJ'), ('man', 'NN'), ('finished', 'VBD'), ('his', 'PRP$'), ('fine', 'JJ'), ('meal', 'NN'), ('and', 'CC'), ('left', 'VBD'), ('the', 'DT'), ('restaurant', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The thin man', 'his fine meal', 'the restaurant']
+sentiment: {'neg': 0.0, 'neu': 0.847, 'pos': 0.153, 'compound': 0.2023}
+word_frequency: [('thin', 1), ('man', 1), ('finished', 1)]
+
+Sentence 5:
+sentence: The black dog chased the blue ball around the bowling alley.
+Summarized sentence: The black dog chased the blue ball around the bowling alley.
+tokens: ['The', 'black', 'dog', 'chased', 'the', 'blue', 'ball', 'around', 'the', 'bowling', 'alley', '.']
+bigrams: [('The', 'black'), ('black', 'dog'), ('dog', 'chased'), ('chased', 'the'), ('the', 'blue'), ('blue', 'ball'), ('ball', 'around'), ('around', 'the'), ('the', 'bowling'), ('bowling', 'alley'), ('alley', '.')]
+pos_tags: [('The', 'DT'), ('black', 'JJ'), ('dog', 'NN'), ('chased', 'VBD'), ('the', 'DT'), ('blue', 'JJ'), ('ball', 'NN'), ('around', 'IN'), ('the', 'DT'), ('bowling', 'NN'), ('alley', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The black dog', 'the blue ball', 'the bowling alley']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('black', 1), ('dog', 1), ('chased', 1)]
+
+Sentence 6:
+sentence: The family gathered for a hot, homemade Thanksgiving meal.
+Summarized sentence: The family gathered for a hot, homemade Thanksgiving meal.
+tokens: ['The', 'family', 'gathered', 'for', 'a', 'hot', ',', 'homemade', 'Thanksgiving', 'meal', '.']
+bigrams: [('The', 'family'), ('family', 'gathered'), ('gathered', 'for'), ('for', 'a'), ('a', 'hot'), ('hot', ','), (',', 'homemade'), ('homemade', 'Thanksgiving'), ('Thanksgiving', 'meal'), ('meal', '.')]
+pos_tags: [('The', 'DT'), ('family', 'NN'), ('gathered', 'VBD'), ('for', 'IN'), ('a', 'DT'), ('hot', 'JJ'), (',', ','), ('homemade', 'JJ'), ('Thanksgiving', 'NNP'), ('meal', 'NN'), ('.', '.')]
+named_entities: [('Thanksgiving', 'DATE')]
+noun_phrases: ['The family', 'a hot, homemade Thanksgiving meal']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('family', 1), ('gathered', 1), ('hot', 1)]
+
+Sentence 7:
+sentence: The woman studied the language to work towards graduation.
+Summarized sentence: The woman studied the language to work towards graduation.
+tokens: ['The', 'woman', 'studied', 'the', 'language', 'to', 'work', 'towards', 'graduation', '.']
+bigrams: [('The', 'woman'), ('woman', 'studied'), ('studied', 'the'), ('the', 'language'), ('language', 'to'), ('to', 'work'), ('work', 'towards'), ('towards', 'graduation'), ('graduation', '.')]
+pos_tags: [('The', 'DT'), ('woman', 'NN'), ('studied', 'VBD'), ('the', 'DT'), ('language', 'NN'), ('to', 'TO'), ('work', 'VB'), ('towards', 'NNS'), ('graduation', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The woman', 'the language', 'graduation']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('woman', 1), ('studied', 1), ('language', 1)]
+
+Sentence 8:
+sentence: The bird flew into the corn field, changing the color.
+Summarized sentence: The bird flew into the corn field, changing the color.
+tokens: ['The', 'bird', 'flew', 'into', 'the', 'corn', 'field', ',', 'changing', 'the', 'color', '.']
+bigrams: [('The', 'bird'), ('bird', 'flew'), ('flew', 'into'), ('into', 'the'), ('the', 'corn'), ('corn', 'field'), ('field', ','), (',', 'changing'), ('changing', 'the'), ('the', 'color'), ('color', '.')]
+pos_tags: [('The', 'DT'), ('bird', 'NN'), ('flew', 'VBD'), ('into', 'IN'), ('the', 'DT'), ('corn', 'NN'), ('field', 'NN'), (',', ','), ('changing', 'VBG'), ('the', 'DT'), ('color', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The bird', 'the corn field', 'the color']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('bird', 1), ('flew', 1), ('corn', 1)]
+
+Sentence 9:
+sentence: The basketball player's three-point shot earned the school a win.
+Summarized sentence: The basketball player's three-point shot earned the school a win.
+tokens: ['The', 'basketball', 'player', "'s", 'three-point', 'shot', 'earned', 'the', 'school', 'a', 'win', '.']
+bigrams: [('The', 'basketball'), ('basketball', 'player'), ('player', "'s"), ("'s", 'three-point'), ('three-point', 'shot'), ('shot', 'earned'), ('earned', 'the'), ('the', 'school'), ('school', 'a'), ('a', 'win'), ('win', '.')]
+pos_tags: [('The', 'DT'), ('basketball', 'NN'), ('player', 'NN'), ("'s", 'POS'), ('three-point', 'NN'), ('shot', 'NN'), ('earned', 'VBD'), ('the', 'DT'), ('school', 'NN'), ('a', 'DT'), ('win', 'NN'), ('.', '.')]
+named_entities: [('three', 'CARDINAL')]
+noun_phrases: ["The basketball player's three-point shot", 'the school', 'a win']
+sentiment: {'neg': 0.0, 'neu': 0.678, 'pos': 0.322, 'compound': 0.5859}
+word_frequency: [('basketball', 1), ('player', 1), ('shot', 1)]
+
+Sentence 10:
+sentence: Heavy snowfall made the city's roads slick and dangerous.
+Summarized sentence: Heavy snowfall made the city's roads slick and dangerous.
+tokens: ['Heavy', 'snowfall', 'made', 'the', 'city', "'s", 'roads', 'slick', 'and', 'dangerous', '.']
+bigrams: [('Heavy', 'snowfall'), ('snowfall', 'made'), ('made', 'the'), ('the', 'city'), ('city', "'s"), ("'s", 'roads'), ('roads', 'slick'), ('slick', 'and'), ('and', 'dangerous'), ('dangerous', '.')]
+pos_tags: [('Heavy', 'NNP'), ('snowfall', 'NN'), ('made', 'VBD'), ('the', 'DT'), ('city', 'NN'), ("'s", 'POS'), ('roads', 'NNS'), ('slick', 'NN'), ('and', 'CC'), ('dangerous', 'JJ'), ('.', '.')]
+named_entities: []
+noun_phrases: ['Heavy snowfall', "the city's roads"]
+sentiment: {'neg': 0.279, 'neu': 0.721, 'pos': 0.0, 'compound': -0.4767}
+word_frequency: [('heavy', 1), ('snowfall', 1), ('made', 1)]
+
+Sentence 11:
+sentence: The computer sits on the chair before the table.
+Summarized sentence: The computer sits on the chair before the table. The computer sits in a chair in front of the table, facing the dining room.
+tokens: ['The', 'computer', 'sits', 'on', 'the', 'chair', 'before', 'the', 'table', '.']
+bigrams: [('The', 'computer'), ('computer', 'sits'), ('sits', 'on'), ('on', 'the'), ('the', 'chair'), ('chair', 'before'), ('before', 'the'), ('the', 'table'), ('table', '.')]
+pos_tags: [('The', 'DT'), ('computer', 'NN'), ('sits', 'VBZ'), ('on', 'IN'), ('the', 'DT'), ('chair', 'NN'), ('before', 'IN'), ('the', 'DT'), ('table', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The computer', 'the chair', 'the table']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('computer', 1), ('sits', 1), ('chair', 1)]
+
+Sentence 12:
+sentence: Helping her cousin, the deaf woman walked and carried clothes.
+Summarized sentence: The deaf woman walked and carried clothes. Helping her cousin.
+tokens: ['Helping', 'her', 'cousin', ',', 'the', 'deaf', 'woman', 'walked', 'and', 'carried', 'clothes', '.']
+bigrams: [('Helping', 'her'), ('her', 'cousin'), ('cousin', ','), (',', 'the'), ('the', 'deaf'), ('deaf', 'woman'), ('woman', 'walked'), ('walked', 'and'), ('and', 'carried'), ('carried', 'clothes'), ('clothes', '.')]
+pos_tags: [('Helping', 'VBG'), ('her', 'PRP$'), ('cousin', 'NN'), (',', ','), ('the', 'DT'), ('deaf', 'NN'), ('woman', 'NN'), ('walked', 'VBD'), ('and', 'CC'), ('carried', 'VBD'), ('clothes', 'NNS'), ('.', '.')]
+named_entities: []
+noun_phrases: ['her cousin', 'the deaf woman', 'clothes']
+sentiment: {'neg': 0.0, 'neu': 0.804, 'pos': 0.196, 'compound': 0.296}
+word_frequency: [('helping', 1), ('cousin', 1), ('deaf', 1)]
+
+Sentence 13:
+sentence: Despite the limited supply, I was able to buy some candy.
+Summarized sentence: Despite the limited supply, I was able to buy some candy.
+tokens: ['Despite', 'the', 'limited', 'supply', ',', 'I', 'was', 'able', 'to', 'buy', 'some', 'candy', '.']
+bigrams: [('Despite', 'the'), ('the', 'limited'), ('limited', 'supply'), ('supply', ','), (',', 'I'), ('I', 'was'), ('was', 'able'), ('able', 'to'), ('to', 'buy'), ('buy', 'some'), ('some', 'candy'), ('candy', '.')]
+pos_tags: [('Despite', 'IN'), ('the', 'DT'), ('limited', 'JJ'), ('supply', 'NN'), (',', ','), ('I', 'PRP'), ('was', 'VBD'), ('able', 'JJ'), ('to', 'TO'), ('buy', 'VB'), ('some', 'DT'), ('candy', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['the limited supply', 'I', 'some candy']
+sentiment: {'neg': 0.0, 'neu': 0.844, 'pos': 0.156, 'compound': 0.1695}
+word_frequency: [('despite', 1), ('limited', 1), ('supply', 1)]
+
+Sentence 14:
+sentence: Finishing his fine meal, the thin man departed the restaurant.
+Summarized sentence: The thin man was seen leaving the restaurant with his meal.
+tokens: ['Finishing', 'his', 'fine', 'meal', ',', 'the', 'thin', 'man', 'departed', 'the', 'restaurant', '.']
+bigrams: [('Finishing', 'his'), ('his', 'fine'), ('fine', 'meal'), ('meal', ','), (',', 'the'), ('the', 'thin'), ('thin', 'man'), ('man', 'departed'), ('departed', 'the'), ('the', 'restaurant'), ('restaurant', '.')]
+pos_tags: [('Finishing', 'VBG'), ('his', 'PRP$'), ('fine', 'JJ'), ('meal', 'NN'), (',', ','), ('the', 'DT'), ('thin', 'JJ'), ('man', 'NN'), ('departed', 'VBD'), ('the', 'DT'), ('restaurant', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['his fine meal', 'the thin man', 'the restaurant']
+sentiment: {'neg': 0.0, 'neu': 0.833, 'pos': 0.167, 'compound': 0.2023}
+word_frequency: [('finishing', 1), ('fine', 1), ('meal', 1)]
+
+Sentence 15:
+sentence: Chasing the blue ball, the black dog played at the bowling alley.
+Summarized sentence: The black dog played at the bowling alley. Chasing the blue ball.
+tokens: ['Chasing', 'the', 'blue', 'ball', ',', 'the', 'black', 'dog', 'played', 'at', 'the', 'bowling', 'alley', '.']
+bigrams: [('Chasing', 'the'), ('the', 'blue'), ('blue', 'ball'), ('ball', ','), (',', 'the'), ('the', 'black'), ('black', 'dog'), ('dog', 'played'), ('played', 'at'), ('at', 'the'), ('the', 'bowling'), ('bowling', 'alley'), ('alley', '.')]
+pos_tags: [('Chasing', 'VBG'), ('the', 'DT'), ('blue', 'NN'), ('ball', 'NN'), (',', ','), ('the', 'DT'), ('black', 'JJ'), ('dog', 'NN'), ('played', 'VBD'), ('at', 'IN'), ('the', 'DT'), ('bowling', 'NN'), ('alley', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['the blue ball', 'the black dog', 'the bowling alley']
+sentiment: {'neg': 0.0, 'neu': 0.821, 'pos': 0.179, 'compound': 0.34}
+word_frequency: [('chasing', 1), ('blue', 1), ('ball', 1)]
+
+Sentence 16:
+sentence: The family savored their hot, homemade Thanksgiving feast.
+Summarized sentence: The family savored their hot, homemade Thanksgiving feast.
+tokens: ['The', 'family', 'savored', 'their', 'hot', ',', 'homemade', 'Thanksgiving', 'feast', '.']
+bigrams: [('The', 'family'), ('family', 'savored'), ('savored', 'their'), ('their', 'hot'), ('hot', ','), (',', 'homemade'), ('homemade', 'Thanksgiving'), ('Thanksgiving', 'feast'), ('feast', '.')]
+pos_tags: [('The', 'DT'), ('family', 'NN'), ('savored', 'VBD'), ('their', 'PRP$'), ('hot', 'JJ'), (',', ','), ('homemade', 'JJ'), ('Thanksgiving', 'NNP'), ('feast', 'NN'), ('.', '.')]
+named_entities: [('Thanksgiving', 'DATE')]
+noun_phrases: ['The family', 'their hot, homemade Thanksgiving feast']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('family', 1), ('savored', 1), ('hot', 1)]
+
+Sentence 17:
+sentence: Graduation was the goal of the woman's language studies.
+Summarized sentence: The woman's goal was to complete her language studies. Graduation was the goal of the woman.
+tokens: ['Graduation', 'was', 'the', 'goal', 'of', 'the', 'woman', "'s", 'language', 'studies', '.']
+bigrams: [('Graduation', 'was'), ('was', 'the'), ('the', 'goal'), ('goal', 'of'), ('of', 'the'), ('the', 'woman'), ('woman', "'s"), ("'s", 'language'), ('language', 'studies'), ('studies', '.')]
+pos_tags: [('Graduation', 'NN'), ('was', 'VBD'), ('the', 'DT'), ('goal', 'NN'), ('of', 'IN'), ('the', 'DT'), ('woman', 'NN'), ("'s", 'POS'), ('language', 'NN'), ('studies', 'NNS'), ('.', '.')]
+named_entities: []
+noun_phrases: ['Graduation', 'the goal', "the woman's language studies"]
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('graduation', 1), ('goal', 1), ('woman', 1)]
+
+Sentence 18:
+sentence: The color changed when the bird flew into the corn field.
+Summarized sentence: The bird flew into the corn field. The color of the corn changed when the bird flew in.
+tokens: ['The', 'color', 'changed', 'when', 'the', 'bird', 'flew', 'into', 'the', 'corn', 'field', '.']
+bigrams: [('The', 'color'), ('color', 'changed'), ('changed', 'when'), ('when', 'the'), ('the', 'bird'), ('bird', 'flew'), ('flew', 'into'), ('into', 'the'), ('the', 'corn'), ('corn', 'field'), ('field', '.')]
+pos_tags: [('The', 'DT'), ('color', 'NN'), ('changed', 'VBD'), ('when', 'WRB'), ('the', 'DT'), ('bird', 'NN'), ('flew', 'VBD'), ('into', 'IN'), ('the', 'DT'), ('corn', 'NN'), ('field', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The color', 'the bird', 'the corn field']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('color', 1), ('changed', 1), ('bird', 1)]
+
+Sentence 19:
+sentence: The school celebrated the basketball player's three-point shot.
+Summarized sentence: The school celebrated the basketball player's three-point shot.
+tokens: ['The', 'school', 'celebrated', 'the', 'basketball', 'player', "'s", 'three-point', 'shot', '.']
+bigrams: [('The', 'school'), ('school', 'celebrated'), ('celebrated', 'the'), ('the', 'basketball'), ('basketball', 'player'), ('player', "'s"), ("'s", 'three-point'), ('three-point', 'shot'), ('shot', '.')]
+pos_tags: [('The', 'DT'), ('school', 'NN'), ('celebrated', 'VBD'), ('the', 'DT'), ('basketball', 'NN'), ('player', 'NN'), ("'s", 'POS'), ('three-point', 'NN'), ('shot', 'NN'), ('.', '.')]
+named_entities: [('three', 'CARDINAL')]
+noun_phrases: ['The school', "the basketball player's three-point shot"]
+sentiment: {'neg': 0.0, 'neu': 0.654, 'pos': 0.346, 'compound': 0.5719}
+word_frequency: [('school', 1), ('celebrated', 1), ('basketball', 1)]
+
+Sentence 20:
+sentence: Dangerous, slick roads resulted from the city's heavy snowfall.
+Summarized sentence: Dangerous, slick roads resulted from the city's heavy snowfall.
+tokens: ['Dangerous', ',', 'slick', 'roads', 'resulted', 'from', 'the', 'city', "'s", 'heavy', 'snowfall', '.']
+bigrams: [('Dangerous', ','), (',', 'slick'), ('slick', 'roads'), ('roads', 'resulted'), ('resulted', 'from'), ('from', 'the'), ('the', 'city'), ('city', "'s"), ("'s", 'heavy'), ('heavy', 'snowfall'), ('snowfall', '.')]
+pos_tags: [('Dangerous', 'NNP'), (',', ','), ('slick', 'JJ'), ('roads', 'NNS'), ('resulted', 'VBD'), ('from', 'IN'), ('the', 'DT'), ('city', 'NN'), ("'s", 'POS'), ('heavy', 'JJ'), ('snowfall', 'NN'), ('.', '.')]
+named_entities: [('Dangerous', 'PERSON')]
+noun_phrases: ['Dangerous, slick roads', "the city's heavy snowfall"]
+sentiment: {'neg': 0.279, 'neu': 0.721, 'pos': 0.0, 'compound': -0.4767}
+word_frequency: [('dangerous', 1), ('slick', 1), ('roads', 1)]
+
+Sentence 21:
+sentence: The table holds a book, which is a computer before the chair.
+Summarized sentence: The table holds a book, which is a computer before the chair. The chair is a chair with a computer on top of it.
+tokens: ['The', 'table', 'holds', 'a', 'book', ',', 'which', 'is', 'a', 'computer', 'before', 'the', 'chair', '.']
+bigrams: [('The', 'table'), ('table', 'holds'), ('holds', 'a'), ('a', 'book'), ('book', ','), (',', 'which'), ('which', 'is'), ('is', 'a'), ('a', 'computer'), ('computer', 'before'), ('before', 'the'), ('the', 'chair'), ('chair', '.')]
+pos_tags: [('The', 'DT'), ('table', 'NN'), ('holds', 'VBZ'), ('a', 'DT'), ('book', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('a', 'DT'), ('computer', 'NN'), ('before', 'IN'), ('the', 'DT'), ('chair', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The table', 'a book', 'which', 'a computer', 'the chair']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('table', 1), ('holds', 1), ('book', 1)]
+
+Sentence 22:
+sentence: As they walked, the deaf woman's cousin helped carry the clothes.
+Summarized sentence: The deaf woman's cousin helped carry the clothes. As they walked, the deaf woman and her cousin talked about life.
+tokens: ['As', 'they', 'walked', ',', 'the', 'deaf', 'woman', "'s", 'cousin', 'helped', 'carry', 'the', 'clothes', '.']
+bigrams: [('As', 'they'), ('they', 'walked'), ('walked', ','), (',', 'the'), ('the', 'deaf'), ('deaf', 'woman'), ('woman', "'s"), ("'s", 'cousin'), ('cousin', 'helped'), ('helped', 'carry'), ('carry', 'the'), ('the', 'clothes'), ('clothes', '.')]
+pos_tags: [('As', 'IN'), ('they', 'PRP'), ('walked', 'VBD'), (',', ','), ('the', 'DT'), ('deaf', 'NN'), ('woman', 'NN'), ("'s", 'POS'), ('cousin', 'NN'), ('helped', 'VBD'), ('carry', 'VB'), ('the', 'DT'), ('clothes', 'NNS'), ('.', '.')]
+named_entities: []
+noun_phrases: ['they', "the deaf woman's cousin", 'the clothes']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('walked', 1), ('deaf', 1), ('woman', 1)]
+
+Sentence 23:
+sentence: I managed to purchase some candy, even with the store's shortage.
+Summarized sentence: I managed to purchase some candy, even with the store's shortage.
+tokens: ['I', 'managed', 'to', 'purchase', 'some', 'candy', ',', 'even', 'with', 'the', 'store', "'s", 'shortage', '.']
+bigrams: [('I', 'managed'), ('managed', 'to'), ('to', 'purchase'), ('purchase', 'some'), ('some', 'candy'), ('candy', ','), (',', 'even'), ('even', 'with'), ('with', 'the'), ('the', 'store'), ('store', "'s"), ("'s", 'shortage'), ('shortage', '.')]
+pos_tags: [('I', 'PRP'), ('managed', 'VBD'), ('to', 'TO'), ('purchase', 'VB'), ('some', 'DT'), ('candy', 'NN'), (',', ','), ('even', 'RB'), ('with', 'IN'), ('the', 'DT'), ('store', 'NN'), ("'s", 'POS'), ('shortage', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['I', 'some candy', "the store's shortage"]
+sentiment: {'neg': 0.182, 'neu': 0.818, 'pos': 0.0, 'compound': -0.25}
+word_frequency: [('managed', 1), ('purchase', 1), ('candy', 1)]
+
+Sentence 24:
+sentence: After finishing his fine meal, the thin man left the restaurant.
+Summarized sentence: The thin man left the restaurant after finishing his fine meal.
+tokens: ['After', 'finishing', 'his', 'fine', 'meal', ',', 'the', 'thin', 'man', 'left', 'the', 'restaurant', '.']
+bigrams: [('After', 'finishing'), ('finishing', 'his'), ('his', 'fine'), ('fine', 'meal'), ('meal', ','), (',', 'the'), ('the', 'thin'), ('thin', 'man'), ('man', 'left'), ('left', 'the'), ('the', 'restaurant'), ('restaurant', '.')]
+pos_tags: [('After', 'IN'), ('finishing', 'VBG'), ('his', 'PRP$'), ('fine', 'JJ'), ('meal', 'NN'), (',', ','), ('the', 'DT'), ('thin', 'JJ'), ('man', 'NN'), ('left', 'VBD'), ('the', 'DT'), ('restaurant', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['his fine meal', 'the thin man', 'the restaurant']
+sentiment: {'neg': 0.0, 'neu': 0.847, 'pos': 0.153, 'compound': 0.2023}
+word_frequency: [('finishing', 1), ('fine', 1), ('meal', 1)]
+
+Sentence 25:
+sentence: The black dog played with the blue ball, chasing it at the table.
+Summarized sentence: The black dog played with the blue ball, chasing it at the table.
+tokens: ['The', 'black', 'dog', 'played', 'with', 'the', 'blue', 'ball', ',', 'chasing', 'it', 'at', 'the', 'table', '.']
+bigrams: [('The', 'black'), ('black', 'dog'), ('dog', 'played'), ('played', 'with'), ('with', 'the'), ('the', 'blue'), ('blue', 'ball'), ('ball', ','), (',', 'chasing'), ('chasing', 'it'), ('it', 'at'), ('at', 'the'), ('the', 'table'), ('table', '.')]
+pos_tags: [('The', 'DT'), ('black', 'JJ'), ('dog', 'NN'), ('played', 'VBD'), ('with', 'IN'), ('the', 'DT'), ('blue', 'NN'), ('ball', 'NN'), (',', ','), ('chasing', 'VBG'), ('it', 'PRP'), ('at', 'IN'), ('the', 'DT'), ('table', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The black dog', 'the blue ball', 'it', 'the table']
+sentiment: {'neg': 0.0, 'neu': 0.833, 'pos': 0.167, 'compound': 0.34}
+word_frequency: [('black', 1), ('dog', 1), ('played', 1)]
+
+Sentence 26:
+sentence: Gathering for Thanksgiving, the family enjoyed a hot, homemade meal.
+Summarized sentence: The family enjoyed a hot, homemade meal for Thanksgiving.
+tokens: ['Gathering', 'for', 'Thanksgiving', ',', 'the', 'family', 'enjoyed', 'a', 'hot', ',', 'homemade', 'meal', '.']
+bigrams: [('Gathering', 'for'), ('for', 'Thanksgiving'), ('Thanksgiving', ','), (',', 'the'), ('the', 'family'), ('family', 'enjoyed'), ('enjoyed', 'a'), ('a', 'hot'), ('hot', ','), (',', 'homemade'), ('homemade', 'meal'), ('meal', '.')]
+pos_tags: [('Gathering', 'VBG'), ('for', 'IN'), ('Thanksgiving', 'NNP'), (',', ','), ('the', 'DT'), ('family', 'NN'), ('enjoyed', 'VBD'), ('a', 'DT'), ('hot', 'JJ'), (',', ','), ('homemade', 'JJ'), ('meal', 'NN'), ('.', '.')]
+named_entities: [('Thanksgiving', 'DATE')]
+noun_phrases: ['Thanksgiving', 'the family', 'a hot, homemade meal']
+sentiment: {'neg': 0.0, 'neu': 0.708, 'pos': 0.292, 'compound': 0.5106}
+word_frequency: [('gathering', 1), ('thanksgiving', 1), ('family', 1)]
+
+Sentence 27:
+sentence: The woman's language studies were part of her graduation work.
+Summarized sentence: The woman's language studies were part of her graduation work.
+tokens: ['The', 'woman', "'s", 'language', 'studies', 'were', 'part', 'of', 'her', 'graduation', 'work', '.']
+bigrams: [('The', 'woman'), ('woman', "'s"), ("'s", 'language'), ('language', 'studies'), ('studies', 'were'), ('were', 'part'), ('part', 'of'), ('of', 'her'), ('her', 'graduation'), ('graduation', 'work'), ('work', '.')]
+pos_tags: [('The', 'DT'), ('woman', 'NN'), ("'s", 'POS'), ('language', 'NN'), ('studies', 'NNS'), ('were', 'VBD'), ('part', 'NN'), ('of', 'IN'), ('her', 'PRP$'), ('graduation', 'NN'), ('work', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ["The woman's language studies", 'part', 'her graduation work']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('woman', 1), ('language', 1), ('studies', 1)]
+
+Sentence 28:
+sentence: Entering the corn field, the bird altered the surrounding color.
+Summarized sentence: The bird altered the surrounding color by entering the corn field.
+tokens: ['Entering', 'the', 'corn', 'field', ',', 'the', 'bird', 'altered', 'the', 'surrounding', 'color', '.']
+bigrams: [('Entering', 'the'), ('the', 'corn'), ('corn', 'field'), ('field', ','), (',', 'the'), ('the', 'bird'), ('bird', 'altered'), ('altered', 'the'), ('the', 'surrounding'), ('surrounding', 'color'), ('color', '.')]
+pos_tags: [('Entering', 'VBG'), ('the', 'DT'), ('corn', 'NN'), ('field', 'NN'), (',', ','), ('the', 'DT'), ('bird', 'NN'), ('altered', 'VBD'), ('the', 'DT'), ('surrounding', 'VBG'), ('color', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['the corn field', 'the bird', 'the surrounding color']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('entering', 1), ('corn', 1), ('field', 1)]
+
+Sentence 29:
+sentence: The school's victory came thanks to the basketball player's shot.
+Summarized sentence: The school's victory came thanks to the basketball player's shot.
+tokens: ['The', 'school', "'s", 'victory', 'came', 'thanks', 'to', 'the', 'basketball', 'player', "'s", 'shot', '.']
+bigrams: [('The', 'school'), ('school', "'s"), ("'s", 'victory'), ('victory', 'came'), ('came', 'thanks'), ('thanks', 'to'), ('to', 'the'), ('the', 'basketball'), ('basketball', 'player'), ('player', "'s"), ("'s", 'shot'), ('shot', '.')]
+pos_tags: [('The', 'DT'), ('school', 'NN'), ("'s", 'POS'), ('victory', 'NN'), ('came', 'VBD'), ('thanks', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('basketball', 'NN'), ('player', 'NN'), ("'s", 'POS'), ('shot', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ["The school's victory", "the basketball player's shot"]
+sentiment: {'neg': 0.0, 'neu': 0.756, 'pos': 0.244, 'compound': 0.4404}
+word_frequency: [('school', 1), ('victory', 1), ('came', 1)]
+
+Sentence 30:
+sentence: Heavy snowfall led to dangerous, slick conditions on city roads.
+Summarized sentence: Heavy snowfall led to dangerous, slick conditions on city roads.
+tokens: ['Heavy', 'snowfall', 'led', 'to', 'dangerous', ',', 'slick', 'conditions', 'on', 'city', 'roads', '.']
+bigrams: [('Heavy', 'snowfall'), ('snowfall', 'led'), ('led', 'to'), ('to', 'dangerous'), ('dangerous', ','), (',', 'slick'), ('slick', 'conditions'), ('conditions', 'on'), ('on', 'city'), ('city', 'roads'), ('roads', '.')]
+pos_tags: [('Heavy', 'NNP'), ('snowfall', 'NN'), ('led', 'VBD'), ('to', 'TO'), ('dangerous', 'JJ'), (',', ','), ('slick', 'JJ'), ('conditions', 'NNS'), ('on', 'IN'), ('city', 'NN'), ('roads', 'NNS'), ('.', '.')]
+named_entities: []
+noun_phrases: ['Heavy snowfall', 'dangerous, slick conditions', 'city roads']
+sentiment: {'neg': 0.256, 'neu': 0.744, 'pos': 0.0, 'compound': -0.4767}
+word_frequency: [('heavy', 1), ('snowfall', 1), ('led', 1)]
+
+Sentence 31:
+sentence: A computer rests on the table before the book on the chair.
+Summarized sentence: A book is placed on a table and a computer is placed next to it. A book is then placed on top of the computer and a book is put on the chair.
+tokens: ['A', 'computer', 'rests', 'on', 'the', 'table', 'before', 'the', 'book', 'on', 'the', 'chair', '.']
+bigrams: [('A', 'computer'), ('computer', 'rests'), ('rests', 'on'), ('on', 'the'), ('the', 'table'), ('table', 'before'), ('before', 'the'), ('the', 'book'), ('book', 'on'), ('on', 'the'), ('the', 'chair'), ('chair', '.')]
+pos_tags: [('A', 'DT'), ('computer', 'NN'), ('rests', 'VBZ'), ('on', 'IN'), ('the', 'DT'), ('table', 'NN'), ('before', 'IN'), ('the', 'DT'), ('book', 'NN'), ('on', 'IN'), ('the', 'DT'), ('chair', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['A computer', 'the table', 'the book', 'the chair']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('computer', 1), ('rests', 1), ('table', 1)]
+
+Sentence 32:
+sentence: Carrying clothes, the deaf woman walked with her helpful cousin.
+Summarized sentence: The deaf woman walked with her helpful cousin. Carrying clothes, the woman was helped by her cousin.
+tokens: ['Carrying', 'clothes', ',', 'the', 'deaf', 'woman', 'walked', 'with', 'her', 'helpful', 'cousin', '.']
+bigrams: [('Carrying', 'clothes'), ('clothes', ','), (',', 'the'), ('the', 'deaf'), ('deaf', 'woman'), ('woman', 'walked'), ('walked', 'with'), ('with', 'her'), ('her', 'helpful'), ('helpful', 'cousin'), ('cousin', '.')]
+pos_tags: [('Carrying', 'VBG'), ('clothes', 'NNS'), (',', ','), ('the', 'DT'), ('deaf', 'NN'), ('woman', 'NN'), ('walked', 'VBD'), ('with', 'IN'), ('her', 'PRP$'), ('helpful', 'JJ'), ('cousin', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['clothes', 'the deaf woman', 'her helpful cousin']
+sentiment: {'neg': 0.0, 'neu': 0.763, 'pos': 0.237, 'compound': 0.4215}
+word_frequency: [('carrying', 1), ('clothes', 1), ('deaf', 1)]
+
+Sentence 33:
+sentence: The store had limited candy, but I was still able to buy some.
+Summarized sentence: The store had limited candy, but I was still able to buy some.
+tokens: ['The', 'store', 'had', 'limited', 'candy', ',', 'but', 'I', 'was', 'still', 'able', 'to', 'buy', 'some', '.']
+bigrams: [('The', 'store'), ('store', 'had'), ('had', 'limited'), ('limited', 'candy'), ('candy', ','), (',', 'but'), ('but', 'I'), ('I', 'was'), ('was', 'still'), ('still', 'able'), ('able', 'to'), ('to', 'buy'), ('buy', 'some'), ('some', '.')]
+pos_tags: [('The', 'DT'), ('store', 'NN'), ('had', 'VBD'), ('limited', 'VBN'), ('candy', 'NN'), (',', ','), ('but', 'CC'), ('I', 'PRP'), ('was', 'VBD'), ('still', 'RB'), ('able', 'JJ'), ('to', 'TO'), ('buy', 'VB'), ('some', 'DT'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The store', 'limited candy', 'I', 'some']
+sentiment: {'neg': 0.116, 'neu': 0.884, 'pos': 0.0, 'compound': -0.1154}
+word_frequency: [('store', 1), ('limited', 1), ('candy', 1)]
+
+Sentence 34:
+sentence: Leaving the restaurant, the thin man had completed his fine meal.
+Summarized sentence: The thin man had completed his fine meal. He left the restaurant looking as though he had eaten a whole meal.
+tokens: ['Leaving', 'the', 'restaurant', ',', 'the', 'thin', 'man', 'had', 'completed', 'his', 'fine', 'meal', '.']
+bigrams: [('Leaving', 'the'), ('the', 'restaurant'), ('restaurant', ','), (',', 'the'), ('the', 'thin'), ('thin', 'man'), ('man', 'had'), ('had', 'completed'), ('completed', 'his'), ('his', 'fine'), ('fine', 'meal'), ('meal', '.')]
+pos_tags: [('Leaving', 'VBG'), ('the', 'DT'), ('restaurant', 'NN'), (',', ','), ('the', 'DT'), ('thin', 'JJ'), ('man', 'NN'), ('had', 'VBD'), ('completed', 'VBN'), ('his', 'PRP$'), ('fine', 'JJ'), ('meal', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['the restaurant', 'the thin man', 'his fine meal']
+sentiment: {'neg': 0.0, 'neu': 0.847, 'pos': 0.153, 'compound': 0.2023}
+word_frequency: [('leaving', 1), ('restaurant', 1), ('thin', 1)]
+
+Sentence 35:
+sentence: Chasing the blue ball, the black dog played at the bowling alley.
+Summarized sentence: The black dog played at the bowling alley. Chasing the blue ball.
+tokens: ['Chasing', 'the', 'blue', 'ball', ',', 'the', 'black', 'dog', 'played', 'at', 'the', 'bowling', 'alley', '.']
+bigrams: [('Chasing', 'the'), ('the', 'blue'), ('blue', 'ball'), ('ball', ','), (',', 'the'), ('the', 'black'), ('black', 'dog'), ('dog', 'played'), ('played', 'at'), ('at', 'the'), ('the', 'bowling'), ('bowling', 'alley'), ('alley', '.')]
+pos_tags: [('Chasing', 'VBG'), ('the', 'DT'), ('blue', 'NN'), ('ball', 'NN'), (',', ','), ('the', 'DT'), ('black', 'JJ'), ('dog', 'NN'), ('played', 'VBD'), ('at', 'IN'), ('the', 'DT'), ('bowling', 'NN'), ('alley', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['the blue ball', 'the black dog', 'the bowling alley']
+sentiment: {'neg': 0.0, 'neu': 0.821, 'pos': 0.179, 'compound': 0.34}
+word_frequency: [('chasing', 1), ('blue', 1), ('ball', 1)]
+
+Sentence 36:
+sentence: The family gathered to enjoy a hot, homemade Thanksgiving feast.
+Summarized sentence: The family gathered to enjoy a hot, homemade Thanksgiving feast.
+tokens: ['The', 'family', 'gathered', 'to', 'enjoy', 'a', 'hot', ',', 'homemade', 'Thanksgiving', 'feast', '.']
+bigrams: [('The', 'family'), ('family', 'gathered'), ('gathered', 'to'), ('to', 'enjoy'), ('enjoy', 'a'), ('a', 'hot'), ('hot', ','), (',', 'homemade'), ('homemade', 'Thanksgiving'), ('Thanksgiving', 'feast'), ('feast', '.')]
+pos_tags: [('The', 'DT'), ('family', 'NN'), ('gathered', 'VBD'), ('to', 'TO'), ('enjoy', 'VB'), ('a', 'DT'), ('hot', 'JJ'), (',', ','), ('homemade', 'JJ'), ('Thanksgiving', 'NNP'), ('feast', 'NN'), ('.', '.')]
+named_entities: [('Thanksgiving', 'DATE')]
+noun_phrases: ['The family', 'a hot, homemade Thanksgiving feast']
+sentiment: {'neg': 0.0, 'neu': 0.714, 'pos': 0.286, 'compound': 0.4939}
+word_frequency: [('family', 1), ('gathered', 1), ('enjoy', 1)]
+
+Sentence 37:
+sentence: Graduation was the focus of the woman's language studies.
+Summarized sentence: The woman's language studies were the focus of the woman's study. Graduation was the focus.
+tokens: ['Graduation', 'was', 'the', 'focus', 'of', 'the', 'woman', "'s", 'language', 'studies', '.']
+bigrams: [('Graduation', 'was'), ('was', 'the'), ('the', 'focus'), ('focus', 'of'), ('of', 'the'), ('the', 'woman'), ('woman', "'s"), ("'s", 'language'), ('language', 'studies'), ('studies', '.')]
+pos_tags: [('Graduation', 'NN'), ('was', 'VBD'), ('the', 'DT'), ('focus', 'NN'), ('of', 'IN'), ('the', 'DT'), ('woman', 'NN'), ("'s", 'POS'), ('language', 'NN'), ('studies', 'NNS'), ('.', '.')]
+named_entities: []
+noun_phrases: ['Graduation', 'the focus', "the woman's language studies"]
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('graduation', 1), ('focus', 1), ('woman', 1)]
+
+Sentence 38:
+sentence: The bird's flight into the corn field changed the surrounding color.
+Summarized sentence: The bird's flight into the corn field changed the surrounding color.
+tokens: ['The', 'bird', "'s", 'flight', 'into', 'the', 'corn', 'field', 'changed', 'the', 'surrounding', 'color', '.']
+bigrams: [('The', 'bird'), ('bird', "'s"), ("'s", 'flight'), ('flight', 'into'), ('into', 'the'), ('the', 'corn'), ('corn', 'field'), ('field', 'changed'), ('changed', 'the'), ('the', 'surrounding'), ('surrounding', 'color'), ('color', '.')]
+pos_tags: [('The', 'DT'), ('bird', 'NN'), ("'s", 'POS'), ('flight', 'NN'), ('into', 'IN'), ('the', 'DT'), ('corn', 'NN'), ('field', 'NN'), ('changed', 'VBD'), ('the', 'DT'), ('surrounding', 'VBG'), ('color', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ["The bird's flight", 'the corn field', 'the surrounding color']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('bird', 1), ('flight', 1), ('corn', 1)]
+
+Sentence 39:
+sentence: The school celebrated their win thanks to the basketball player.
+Summarized sentence: The school celebrated their win thanks to the basketball player.
+tokens: ['The', 'school', 'celebrated', 'their', 'win', 'thanks', 'to', 'the', 'basketball', 'player', '.']
+bigrams: [('The', 'school'), ('school', 'celebrated'), ('celebrated', 'their'), ('their', 'win'), ('win', 'thanks'), ('thanks', 'to'), ('to', 'the'), ('the', 'basketball'), ('basketball', 'player'), ('player', '.')]
+pos_tags: [('The', 'DT'), ('school', 'NN'), ('celebrated', 'VBD'), ('their', 'PRP$'), ('win', 'JJ'), ('thanks', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('basketball', 'NN'), ('player', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The school', 'their win', 'the basketball player']
+sentiment: {'neg': 0.0, 'neu': 0.402, 'pos': 0.598, 'compound': 0.886}
+word_frequency: [('school', 1), ('celebrated', 1), ('win', 1)]
+
+Sentence 40:
+sentence: Slick, dangerous roads resulted from the city's heavy snowfall.
+Summarized sentence: Heavy snowfall causes dangerous roads in New York City.
+tokens: ['Slick', ',', 'dangerous', 'roads', 'resulted', 'from', 'the', 'city', "'s", 'heavy', 'snowfall', '.']
+bigrams: [('Slick', ','), (',', 'dangerous'), ('dangerous', 'roads'), ('roads', 'resulted'), ('resulted', 'from'), ('from', 'the'), ('the', 'city'), ('city', "'s"), ("'s", 'heavy'), ('heavy', 'snowfall'), ('snowfall', '.')]
+pos_tags: [('Slick', 'NNP'), (',', ','), ('dangerous', 'JJ'), ('roads', 'NNS'), ('resulted', 'VBD'), ('from', 'IN'), ('the', 'DT'), ('city', 'NN'), ("'s", 'POS'), ('heavy', 'JJ'), ('snowfall', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['dangerous roads', "the city's heavy snowfall"]
+sentiment: {'neg': 0.279, 'neu': 0.721, 'pos': 0.0, 'compound': -0.4767}
+word_frequency: [('slick', 1), ('dangerous', 1), ('roads', 1)]
+
+Sentence 41:
+sentence: The chair holds a book, which is a computer before the table.
+Summarized sentence: The chair holds a book, which is a computer before the table. The book is then placed on top of the computer and the table is placed around it.
+tokens: ['The', 'chair', 'holds', 'a', 'book', ',', 'which', 'is', 'a', 'computer', 'before', 'the', 'table', '.']
+bigrams: [('The', 'chair'), ('chair', 'holds'), ('holds', 'a'), ('a', 'book'), ('book', ','), (',', 'which'), ('which', 'is'), ('is', 'a'), ('a', 'computer'), ('computer', 'before'), ('before', 'the'), ('the', 'table'), ('table', '.')]
+pos_tags: [('The', 'DT'), ('chair', 'NN'), ('holds', 'VBZ'), ('a', 'DT'), ('book', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('a', 'DT'), ('computer', 'NN'), ('before', 'IN'), ('the', 'DT'), ('table', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The chair', 'a book', 'which', 'a computer', 'the table']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('chair', 1), ('holds', 1), ('book', 1)]
+
+Sentence 42:
+sentence: The deaf woman's cousin assisted her in carrying the clothes.
+Summarized sentence: The deaf woman's cousin assisted her in carrying the clothes.
+tokens: ['The', 'deaf', 'woman', "'s", 'cousin', 'assisted', 'her', 'in', 'carrying', 'the', 'clothes', '.']
+bigrams: [('The', 'deaf'), ('deaf', 'woman'), ('woman', "'s"), ("'s", 'cousin'), ('cousin', 'assisted'), ('assisted', 'her'), ('her', 'in'), ('in', 'carrying'), ('carrying', 'the'), ('the', 'clothes'), ('clothes', '.')]
+pos_tags: [('The', 'DT'), ('deaf', 'NN'), ('woman', 'NN'), ("'s", 'POS'), ('cousin', 'NN'), ('assisted', 'VBD'), ('her', 'PRP$'), ('in', 'IN'), ('carrying', 'VBG'), ('the', 'DT'), ('clothes', 'NNS'), ('.', '.')]
+named_entities: []
+noun_phrases: ["The deaf woman's cousin", 'her', 'the clothes']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('deaf', 1), ('woman', 1), ('cousin', 1)]
+
+Sentence 43:
+sentence: I found candy to buy, even though the store's supply was limited.
+Summarized sentence: I found candy to buy, even though the store's supply was limited.
+tokens: ['I', 'found', 'candy', 'to', 'buy', ',', 'even', 'though', 'the', 'store', "'s", 'supply', 'was', 'limited', '.']
+bigrams: [('I', 'found'), ('found', 'candy'), ('candy', 'to'), ('to', 'buy'), ('buy', ','), (',', 'even'), ('even', 'though'), ('though', 'the'), ('the', 'store'), ('store', "'s"), ("'s", 'supply'), ('supply', 'was'), ('was', 'limited'), ('limited', '.')]
+pos_tags: [('I', 'PRP'), ('found', 'VBD'), ('candy', 'NN'), ('to', 'TO'), ('buy', 'VB'), (',', ','), ('even', 'RB'), ('though', 'IN'), ('the', 'DT'), ('store', 'NN'), ("'s", 'POS'), ('supply', 'NN'), ('was', 'VBD'), ('limited', 'VBN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['I', 'candy', "the store's supply"]
+sentiment: {'neg': 0.16, 'neu': 0.84, 'pos': 0.0, 'compound': -0.2263}
+word_frequency: [('found', 1), ('candy', 1), ('buy', 1)]
+
+Sentence 44:
+sentence: The thin man left the restaurant after finishing his fine meal.
+Summarized sentence: The thin man left the restaurant after finishing his fine meal.
+tokens: ['The', 'thin', 'man', 'left', 'the', 'restaurant', 'after', 'finishing', 'his', 'fine', 'meal', '.']
+bigrams: [('The', 'thin'), ('thin', 'man'), ('man', 'left'), ('left', 'the'), ('the', 'restaurant'), ('restaurant', 'after'), ('after', 'finishing'), ('finishing', 'his'), ('his', 'fine'), ('fine', 'meal'), ('meal', '.')]
+pos_tags: [('The', 'DT'), ('thin', 'JJ'), ('man', 'NN'), ('left', 'VBD'), ('the', 'DT'), ('restaurant', 'NN'), ('after', 'IN'), ('finishing', 'VBG'), ('his', 'PRP$'), ('fine', 'JJ'), ('meal', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['The thin man', 'the restaurant', 'his fine meal']
+sentiment: {'neg': 0.0, 'neu': 0.847, 'pos': 0.153, 'compound': 0.2023}
+word_frequency: [('thin', 1), ('man', 1), ('left', 1)]
+
+Sentence 45:
+sentence: Playing with the blue ball, the black dog chased it around the table.
+Summarized sentence: The black dog chased the blue ball around the table.
+tokens: ['Playing', 'with', 'the', 'blue', 'ball', ',', 'the', 'black', 'dog', 'chased', 'it', 'around', 'the', 'table', '.']
+bigrams: [('Playing', 'with'), ('with', 'the'), ('the', 'blue'), ('blue', 'ball'), ('ball', ','), (',', 'the'), ('the', 'black'), ('black', 'dog'), ('dog', 'chased'), ('chased', 'it'), ('it', 'around'), ('around', 'the'), ('the', 'table'), ('table', '.')]
+pos_tags: [('Playing', 'VBG'), ('with', 'IN'), ('the', 'DT'), ('blue', 'NN'), ('ball', 'NN'), (',', ','), ('the', 'DT'), ('black', 'JJ'), ('dog', 'NN'), ('chased', 'VBD'), ('it', 'PRP'), ('around', 'IN'), ('the', 'DT'), ('table', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['the blue ball', 'the black dog', 'it', 'the table']
+sentiment: {'neg': 0.0, 'neu': 0.87, 'pos': 0.13, 'compound': 0.2023}
+word_frequency: [('playing', 1), ('blue', 1), ('ball', 1)]
+
+Sentence 46:
+sentence: Gathered for Thanksgiving, the family savored a hot, homemade meal.
+Summarized sentence: The family savored a hot, homemade meal. Gathered for Thanksgiving.
+tokens: ['Gathered', 'for', 'Thanksgiving', ',', 'the', 'family', 'savored', 'a', 'hot', ',', 'homemade', 'meal', '.']
+bigrams: [('Gathered', 'for'), ('for', 'Thanksgiving'), ('Thanksgiving', ','), (',', 'the'), ('the', 'family'), ('family', 'savored'), ('savored', 'a'), ('a', 'hot'), ('hot', ','), (',', 'homemade'), ('homemade', 'meal'), ('meal', '.')]
+pos_tags: [('Gathered', 'VBN'), ('for', 'IN'), ('Thanksgiving', 'NNP'), (',', ','), ('the', 'DT'), ('family', 'NN'), ('savored', 'VBD'), ('a', 'DT'), ('hot', 'JJ'), (',', ','), ('homemade', 'JJ'), ('meal', 'NN'), ('.', '.')]
+named_entities: [('Thanksgiving', 'DATE')]
+noun_phrases: ['Thanksgiving', 'the family', 'a hot, homemade meal']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('gathered', 1), ('thanksgiving', 1), ('family', 1)]
+
+Sentence 47:
+sentence: The woman's language studies were part of her graduation goals.
+Summarized sentence: The woman's language studies were part of her graduation goals.
+tokens: ['The', 'woman', "'s", 'language', 'studies', 'were', 'part', 'of', 'her', 'graduation', 'goals', '.']
+bigrams: [('The', 'woman'), ('woman', "'s"), ("'s", 'language'), ('language', 'studies'), ('studies', 'were'), ('were', 'part'), ('part', 'of'), ('of', 'her'), ('her', 'graduation'), ('graduation', 'goals'), ('goals', '.')]
+pos_tags: [('The', 'DT'), ('woman', 'NN'), ("'s", 'POS'), ('language', 'NN'), ('studies', 'NNS'), ('were', 'VBD'), ('part', 'NN'), ('of', 'IN'), ('her', 'PRP$'), ('graduation', 'NN'), ('goals', 'NNS'), ('.', '.')]
+named_entities: []
+noun_phrases: ["The woman's language studies", 'part', 'her graduation goals']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('woman', 1), ('language', 1), ('studies', 1)]
+
+Sentence 48:
+sentence: Color was altered when the bird flew into the corn field.
+Summarized sentence: The bird flew into the corn field. The color of the corn was altered.
+tokens: ['Color', 'was', 'altered', 'when', 'the', 'bird', 'flew', 'into', 'the', 'corn', 'field', '.']
+bigrams: [('Color', 'was'), ('was', 'altered'), ('altered', 'when'), ('when', 'the'), ('the', 'bird'), ('bird', 'flew'), ('flew', 'into'), ('into', 'the'), ('the', 'corn'), ('corn', 'field'), ('field', '.')]
+pos_tags: [('Color', 'NN'), ('was', 'VBD'), ('altered', 'VBN'), ('when', 'WRB'), ('the', 'DT'), ('bird', 'NN'), ('flew', 'VBD'), ('into', 'IN'), ('the', 'DT'), ('corn', 'NN'), ('field', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ['Color', 'the bird', 'the corn field']
+sentiment: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+word_frequency: [('color', 1), ('altered', 1), ('bird', 1)]
+
+Sentence 49:
+sentence: The school's victory was secured by the basketball player's shot.
+Summarized sentence: The school's victory was secured by the basketball player's shot.
+tokens: ['The', 'school', "'s", 'victory', 'was', 'secured', 'by', 'the', 'basketball', 'player', "'s", 'shot', '.']
+bigrams: [('The', 'school'), ('school', "'s"), ("'s", 'victory'), ('victory', 'was'), ('was', 'secured'), ('secured', 'by'), ('by', 'the'), ('the', 'basketball'), ('basketball', 'player'), ('player', "'s"), ("'s", 'shot'), ('shot', '.')]
+pos_tags: [('The', 'DT'), ('school', 'NN'), ("'s", 'POS'), ('victory', 'NN'), ('was', 'VBD'), ('secured', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('basketball', 'NN'), ('player', 'NN'), ("'s", 'POS'), ('shot', 'NN'), ('.', '.')]
+named_entities: []
+noun_phrases: ["The school's victory", "the basketball player's shot"]
+sentiment: {'neg': 0.0, 'neu': 0.769, 'pos': 0.231, 'compound': 0.4019}
+word_frequency: [('school', 1), ('victory', 1), ('secured', 1)]
+
+Sentence 50:
+sentence: Heavy snowfall created slick, dangerous conditions on city roads.
+Summarized sentence: Heavy snowfall created slick, dangerous conditions on city roads.
+tokens: ['Heavy', 'snowfall', 'created', 'slick', ',', 'dangerous', 'conditions', 'on', 'city', 'roads', '.']
+bigrams: [('Heavy', 'snowfall'), ('snowfall', 'created'), ('created', 'slick'), ('slick', ','), (',', 'dangerous'), ('dangerous', 'conditions'), ('conditions', 'on'), ('on', 'city'), ('city', 'roads'), ('roads', '.')]
+pos_tags: [('Heavy', 'NNP'), ('snowfall', 'NN'), ('created', 'VBD'), ('slick', 'NN'), (',', ','), ('dangerous', 'JJ'), ('conditions', 'NNS'), ('on', 'IN'), ('city', 'NN'), ('roads', 'NNS'), ('.', '.')]
+named_entities: []
+noun_phrases: ['Heavy snowfall', 'slick, dangerous conditions', 'city roads']
+sentiment: {'neg': 0.256, 'neu': 0.579, 'pos': 0.165, 'compound': -0.2732}
+word_frequency: [('heavy', 1), ('snowfall', 1), ('created', 1)]
+
+Overall Analysis:
+Topic Modeling:
+Topic 1: woman, language, graduation, shot, basketball
+Topic 2: woman, clothes, deaf, cousin, meal
+Topic 3: color, bird, corn, field, flew
+Topic 4: table, snowfall, roads, slick, dangerous
+Topic 5: thanksgiving, family, hot, homemade, candy
