@@ -15,6 +15,7 @@ from collections import Counter
 from wordcloud import WordCloud
 #import seaborn as sns
 import networkx as nx
+#import pandas as pd
 #import os
 
 #NLTK download
@@ -134,20 +135,26 @@ def create_word_cloud(text):
     
 #plot noun phrases
 def plot_noun_phrases(noun_phrases):
-    phrase_lengths = [len(phrase.split()) for phrase in noun_phrases]
-    length_counts = Counter(phrase_lengths)
-
+    phrase_lengths = np.array([len(phrase.split()) for phrase in noun_phrases])
+    
     plt.figure(figsize=(10, 6))
-    plt.bar(length_counts.keys(), length_counts.values())
+    
+    # Calculate the range for the bins
+    min_length = np.min(phrase_lengths)
+    max_length = np.max(phrase_lengths)
+    bins = np.arange(min_length, max_length + 2) - 0.5
+    
+    plt.hist(phrase_lengths, bins=bins, edgecolor='black')
     plt.title('Distribution of Noun Phrase Lengths')
     plt.xlabel('Number of Words in Noun Phrase')
     plt.ylabel('Frequency')
-    plt.xticks(range(min(phrase_lengths), max(phrase_lengths) + 1))
+    plt.xticks(range(min_length, max_length + 1))
+    
+    # Add count labels on top of each bar
+    counts, _ = np.histogram(phrase_lengths, bins=bins)
+    for i, count in enumerate(counts):
+        plt.text(bins[i] + 0.5, count, str(count), ha='center', va='bottom')
 
-    # sns.histplot(phrase_lengths, bins=range(1, max(phrase_lengths) + 2, 1), kde=True)
-    # plt.title('Distribution of Noun Phrase Lengths')
-    # plt.xlabel('Number of Words in Noun Phrase')
-    # plt.ylabel('Frequency')
     plt.savefig('noun_phrase_plot.png')
     plt.close()
 
