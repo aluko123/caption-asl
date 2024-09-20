@@ -1,0 +1,7315 @@
+{
+  "sentence_analysis": [
+    {
+      "sentence_number": 1,
+      "original_sentence": "The book rests on the table before the chair.",
+      "summarized_sentence": "The book rests on the table before",
+      "tokens": [
+        "The",
+        "book",
+        "rests",
+        "on",
+        "the",
+        "table",
+        "before",
+        "the",
+        "chair",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "book"
+        ],
+        [
+          "book",
+          "rests"
+        ],
+        [
+          "rests",
+          "on"
+        ],
+        [
+          "on",
+          "the"
+        ],
+        [
+          "the",
+          "table"
+        ],
+        [
+          "table",
+          "before"
+        ],
+        [
+          "before",
+          "the"
+        ],
+        [
+          "the",
+          "chair"
+        ],
+        [
+          "chair",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "book",
+          "NOUN"
+        ],
+        [
+          "rests",
+          "VERB"
+        ],
+        [
+          "on",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "table",
+          "NOUN"
+        ],
+        [
+          "before",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "chair",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The book",
+        "the table",
+        "the chair"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "book",
+          "count": 1
+        },
+        {
+          "word": "rests",
+          "count": 1
+        },
+        {
+          "word": "table",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7777777777777778
+    },
+    {
+      "sentence_number": 2,
+      "original_sentence": "The deaf woman and her cousin walked, carrying clothes.",
+      "summarized_sentence": "The deaf woman and her cousin walked",
+      "tokens": [
+        "The",
+        "deaf",
+        "woman",
+        "and",
+        "her",
+        "cousin",
+        "walked",
+        ",",
+        "carrying",
+        "clothes",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "deaf"
+        ],
+        [
+          "deaf",
+          "woman"
+        ],
+        [
+          "woman",
+          "and"
+        ],
+        [
+          "and",
+          "her"
+        ],
+        [
+          "her",
+          "cousin"
+        ],
+        [
+          "cousin",
+          "walked"
+        ],
+        [
+          "walked",
+          ","
+        ],
+        [
+          ",",
+          "carrying"
+        ],
+        [
+          "carrying",
+          "clothes"
+        ],
+        [
+          "clothes",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "deaf",
+          "NOUN"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "and",
+          "CONJ"
+        ],
+        [
+          "her",
+          "PRON"
+        ],
+        [
+          "cousin",
+          "NOUN"
+        ],
+        [
+          "walked",
+          "VERB"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "carrying",
+          "VERB"
+        ],
+        [
+          "clothes",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The deaf woman",
+        "her cousin",
+        "clothes"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "deaf",
+          "count": 1
+        },
+        {
+          "word": "woman",
+          "count": 1
+        },
+        {
+          "word": "cousin",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7777777777777778
+    },
+    {
+      "sentence_number": 3,
+      "original_sentence": "The store had run out of candy, but I found some elsewhere.",
+      "summarized_sentence": "The store had run out of candy",
+      "tokens": [
+        "The",
+        "store",
+        "had",
+        "run",
+        "out",
+        "of",
+        "candy",
+        ",",
+        "but",
+        "I",
+        "found",
+        "some",
+        "elsewhere",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "store"
+        ],
+        [
+          "store",
+          "had"
+        ],
+        [
+          "had",
+          "run"
+        ],
+        [
+          "run",
+          "out"
+        ],
+        [
+          "out",
+          "of"
+        ],
+        [
+          "of",
+          "candy"
+        ],
+        [
+          "candy",
+          ","
+        ],
+        [
+          ",",
+          "but"
+        ],
+        [
+          "but",
+          "I"
+        ],
+        [
+          "I",
+          "found"
+        ],
+        [
+          "found",
+          "some"
+        ],
+        [
+          "some",
+          "elsewhere"
+        ],
+        [
+          "elsewhere",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "store",
+          "NOUN"
+        ],
+        [
+          "had",
+          "VERB"
+        ],
+        [
+          "run",
+          "VERB"
+        ],
+        [
+          "out",
+          "ADP"
+        ],
+        [
+          "of",
+          "ADP"
+        ],
+        [
+          "candy",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "but",
+          "CONJ"
+        ],
+        [
+          "I",
+          "PRON"
+        ],
+        [
+          "found",
+          "VERB"
+        ],
+        [
+          "some",
+          "DET"
+        ],
+        [
+          "elsewhere",
+          "ADV"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The store",
+        "candy",
+        "I",
+        "some"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "store",
+          "count": 1
+        },
+        {
+          "word": "run",
+          "count": 1
+        },
+        {
+          "word": "candy",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5833333333333334
+    },
+    {
+      "sentence_number": 4,
+      "original_sentence": "The thin man finished his fine meal and left the restaurant.",
+      "summarized_sentence": "The thin man finished his fine meal",
+      "tokens": [
+        "The",
+        "thin",
+        "man",
+        "finished",
+        "his",
+        "fine",
+        "meal",
+        "and",
+        "left",
+        "the",
+        "restaurant",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "thin"
+        ],
+        [
+          "thin",
+          "man"
+        ],
+        [
+          "man",
+          "finished"
+        ],
+        [
+          "finished",
+          "his"
+        ],
+        [
+          "his",
+          "fine"
+        ],
+        [
+          "fine",
+          "meal"
+        ],
+        [
+          "meal",
+          "and"
+        ],
+        [
+          "and",
+          "left"
+        ],
+        [
+          "left",
+          "the"
+        ],
+        [
+          "the",
+          "restaurant"
+        ],
+        [
+          "restaurant",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "thin",
+          "ADJ"
+        ],
+        [
+          "man",
+          "NOUN"
+        ],
+        [
+          "finished",
+          "VERB"
+        ],
+        [
+          "his",
+          "PRON"
+        ],
+        [
+          "fine",
+          "ADJ"
+        ],
+        [
+          "meal",
+          "NOUN"
+        ],
+        [
+          "and",
+          "CONJ"
+        ],
+        [
+          "left",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "restaurant",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The thin man",
+        "his fine meal",
+        "the restaurant"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.847,
+        "pos": 0.153,
+        "compound": 0.2023
+      },
+      "word_frequency": [
+        {
+          "word": "thin",
+          "count": 1
+        },
+        {
+          "word": "man",
+          "count": 1
+        },
+        {
+          "word": "finished",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6363636363636364
+    },
+    {
+      "sentence_number": 5,
+      "original_sentence": "The black dog chased the blue ball around the bowling alley.",
+      "summarized_sentence": "The black dog chased the blue ball",
+      "tokens": [
+        "The",
+        "black",
+        "dog",
+        "chased",
+        "the",
+        "blue",
+        "ball",
+        "around",
+        "the",
+        "bowling",
+        "alley",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "black"
+        ],
+        [
+          "black",
+          "dog"
+        ],
+        [
+          "dog",
+          "chased"
+        ],
+        [
+          "chased",
+          "the"
+        ],
+        [
+          "the",
+          "blue"
+        ],
+        [
+          "blue",
+          "ball"
+        ],
+        [
+          "ball",
+          "around"
+        ],
+        [
+          "around",
+          "the"
+        ],
+        [
+          "the",
+          "bowling"
+        ],
+        [
+          "bowling",
+          "alley"
+        ],
+        [
+          "alley",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "black",
+          "ADJ"
+        ],
+        [
+          "dog",
+          "NOUN"
+        ],
+        [
+          "chased",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "blue",
+          "ADJ"
+        ],
+        [
+          "ball",
+          "NOUN"
+        ],
+        [
+          "around",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "bowling",
+          "NOUN"
+        ],
+        [
+          "alley",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The black dog",
+        "the blue ball",
+        "the bowling alley"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "black",
+          "count": 1
+        },
+        {
+          "word": "dog",
+          "count": 1
+        },
+        {
+          "word": "chased",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6363636363636364
+    },
+    {
+      "sentence_number": 6,
+      "original_sentence": "The family gathered for a hot, homemade Thanksgiving meal.",
+      "summarized_sentence": "The family gathered for a hot,",
+      "tokens": [
+        "The",
+        "family",
+        "gathered",
+        "for",
+        "a",
+        "hot",
+        ",",
+        "homemade",
+        "Thanksgiving",
+        "meal",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "family"
+        ],
+        [
+          "family",
+          "gathered"
+        ],
+        [
+          "gathered",
+          "for"
+        ],
+        [
+          "for",
+          "a"
+        ],
+        [
+          "a",
+          "hot"
+        ],
+        [
+          "hot",
+          ","
+        ],
+        [
+          ",",
+          "homemade"
+        ],
+        [
+          "homemade",
+          "Thanksgiving"
+        ],
+        [
+          "Thanksgiving",
+          "meal"
+        ],
+        [
+          "meal",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "family",
+          "NOUN"
+        ],
+        [
+          "gathered",
+          "VERB"
+        ],
+        [
+          "for",
+          "ADP"
+        ],
+        [
+          "a",
+          "DET"
+        ],
+        [
+          "hot",
+          "ADJ"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "homemade",
+          "ADJ"
+        ],
+        [
+          "Thanksgiving",
+          "NOUN"
+        ],
+        [
+          "meal",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [
+        [
+          "Thanksgiving",
+          "DATE"
+        ]
+      ],
+      "noun_phrases": [
+        "The family",
+        "a hot, homemade Thanksgiving meal"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "family",
+          "count": 1
+        },
+        {
+          "word": "gathered",
+          "count": 1
+        },
+        {
+          "word": "hot",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6666666666666666
+    },
+    {
+      "sentence_number": 7,
+      "original_sentence": "The woman studied the language to work towards graduation.",
+      "summarized_sentence": "The woman studied the language to work",
+      "tokens": [
+        "The",
+        "woman",
+        "studied",
+        "the",
+        "language",
+        "to",
+        "work",
+        "towards",
+        "graduation",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "woman"
+        ],
+        [
+          "woman",
+          "studied"
+        ],
+        [
+          "studied",
+          "the"
+        ],
+        [
+          "the",
+          "language"
+        ],
+        [
+          "language",
+          "to"
+        ],
+        [
+          "to",
+          "work"
+        ],
+        [
+          "work",
+          "towards"
+        ],
+        [
+          "towards",
+          "graduation"
+        ],
+        [
+          "graduation",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "studied",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "language",
+          "NOUN"
+        ],
+        [
+          "to",
+          "PRT"
+        ],
+        [
+          "work",
+          "VERB"
+        ],
+        [
+          "towards",
+          "NOUN"
+        ],
+        [
+          "graduation",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The woman",
+        "the language",
+        "graduation"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "woman",
+          "count": 1
+        },
+        {
+          "word": "studied",
+          "count": 1
+        },
+        {
+          "word": "language",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7777777777777778
+    },
+    {
+      "sentence_number": 8,
+      "original_sentence": "The bird flew into the corn field, changing the color.",
+      "summarized_sentence": "The bird flew into the corn field",
+      "tokens": [
+        "The",
+        "bird",
+        "flew",
+        "into",
+        "the",
+        "corn",
+        "field",
+        ",",
+        "changing",
+        "the",
+        "color",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "bird"
+        ],
+        [
+          "bird",
+          "flew"
+        ],
+        [
+          "flew",
+          "into"
+        ],
+        [
+          "into",
+          "the"
+        ],
+        [
+          "the",
+          "corn"
+        ],
+        [
+          "corn",
+          "field"
+        ],
+        [
+          "field",
+          ","
+        ],
+        [
+          ",",
+          "changing"
+        ],
+        [
+          "changing",
+          "the"
+        ],
+        [
+          "the",
+          "color"
+        ],
+        [
+          "color",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "bird",
+          "NOUN"
+        ],
+        [
+          "flew",
+          "VERB"
+        ],
+        [
+          "into",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "corn",
+          "NOUN"
+        ],
+        [
+          "field",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "changing",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "color",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The bird",
+        "the corn field",
+        "the color"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "bird",
+          "count": 1
+        },
+        {
+          "word": "flew",
+          "count": 1
+        },
+        {
+          "word": "corn",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7
+    },
+    {
+      "sentence_number": 9,
+      "original_sentence": "The basketball player's three-point shot earned the school a win.",
+      "summarized_sentence": "The basketball player's three-point",
+      "tokens": [
+        "The",
+        "basketball",
+        "player",
+        "'s",
+        "three-point",
+        "shot",
+        "earned",
+        "the",
+        "school",
+        "a",
+        "win",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "basketball"
+        ],
+        [
+          "basketball",
+          "player"
+        ],
+        [
+          "player",
+          "'s"
+        ],
+        [
+          "'s",
+          "three-point"
+        ],
+        [
+          "three-point",
+          "shot"
+        ],
+        [
+          "shot",
+          "earned"
+        ],
+        [
+          "earned",
+          "the"
+        ],
+        [
+          "the",
+          "school"
+        ],
+        [
+          "school",
+          "a"
+        ],
+        [
+          "a",
+          "win"
+        ],
+        [
+          "win",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "basketball",
+          "NOUN"
+        ],
+        [
+          "player",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "three-point",
+          "NOUN"
+        ],
+        [
+          "shot",
+          "NOUN"
+        ],
+        [
+          "earned",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "school",
+          "NOUN"
+        ],
+        [
+          "a",
+          "DET"
+        ],
+        [
+          "win",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [
+        [
+          "three",
+          "CARDINAL"
+        ]
+      ],
+      "noun_phrases": [
+        "The basketball player's three-point shot",
+        "the school",
+        "a win"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.678,
+        "pos": 0.322,
+        "compound": 0.5859
+      },
+      "word_frequency": [
+        {
+          "word": "basketball",
+          "count": 1
+        },
+        {
+          "word": "player",
+          "count": 1
+        },
+        {
+          "word": "shot",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.4
+    },
+    {
+      "sentence_number": 10,
+      "original_sentence": "Heavy snowfall made the city's roads slick and dangerous.",
+      "summarized_sentence": "Heavy snowfall made the city's",
+      "tokens": [
+        "Heavy",
+        "snowfall",
+        "made",
+        "the",
+        "city",
+        "'s",
+        "roads",
+        "slick",
+        "and",
+        "dangerous",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Heavy",
+          "snowfall"
+        ],
+        [
+          "snowfall",
+          "made"
+        ],
+        [
+          "made",
+          "the"
+        ],
+        [
+          "the",
+          "city"
+        ],
+        [
+          "city",
+          "'s"
+        ],
+        [
+          "'s",
+          "roads"
+        ],
+        [
+          "roads",
+          "slick"
+        ],
+        [
+          "slick",
+          "and"
+        ],
+        [
+          "and",
+          "dangerous"
+        ],
+        [
+          "dangerous",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Heavy",
+          "NOUN"
+        ],
+        [
+          "snowfall",
+          "NOUN"
+        ],
+        [
+          "made",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "city",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "roads",
+          "NOUN"
+        ],
+        [
+          "slick",
+          "NOUN"
+        ],
+        [
+          "and",
+          "CONJ"
+        ],
+        [
+          "dangerous",
+          "ADJ"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "Heavy snowfall",
+        "the city's roads"
+      ],
+      "sentiment": {
+        "neg": 0.279,
+        "neu": 0.721,
+        "pos": 0.0,
+        "compound": -0.4767
+      },
+      "word_frequency": [
+        {
+          "word": "heavy",
+          "count": 1
+        },
+        {
+          "word": "snowfall",
+          "count": 1
+        },
+        {
+          "word": "made",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5555555555555556
+    },
+    {
+      "sentence_number": 11,
+      "original_sentence": "The computer sits on the chair before the table.",
+      "summarized_sentence": "The computer sits on the chair before",
+      "tokens": [
+        "The",
+        "computer",
+        "sits",
+        "on",
+        "the",
+        "chair",
+        "before",
+        "the",
+        "table",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "computer"
+        ],
+        [
+          "computer",
+          "sits"
+        ],
+        [
+          "sits",
+          "on"
+        ],
+        [
+          "on",
+          "the"
+        ],
+        [
+          "the",
+          "chair"
+        ],
+        [
+          "chair",
+          "before"
+        ],
+        [
+          "before",
+          "the"
+        ],
+        [
+          "the",
+          "table"
+        ],
+        [
+          "table",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "computer",
+          "NOUN"
+        ],
+        [
+          "sits",
+          "VERB"
+        ],
+        [
+          "on",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "chair",
+          "NOUN"
+        ],
+        [
+          "before",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "table",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The computer",
+        "the chair",
+        "the table"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "computer",
+          "count": 1
+        },
+        {
+          "word": "sits",
+          "count": 1
+        },
+        {
+          "word": "chair",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7777777777777778
+    },
+    {
+      "sentence_number": 12,
+      "original_sentence": "Helping her cousin, the deaf woman walked and carried clothes.",
+      "summarized_sentence": "The deaf woman walked and carried clothes",
+      "tokens": [
+        "Helping",
+        "her",
+        "cousin",
+        ",",
+        "the",
+        "deaf",
+        "woman",
+        "walked",
+        "and",
+        "carried",
+        "clothes",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Helping",
+          "her"
+        ],
+        [
+          "her",
+          "cousin"
+        ],
+        [
+          "cousin",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "deaf"
+        ],
+        [
+          "deaf",
+          "woman"
+        ],
+        [
+          "woman",
+          "walked"
+        ],
+        [
+          "walked",
+          "and"
+        ],
+        [
+          "and",
+          "carried"
+        ],
+        [
+          "carried",
+          "clothes"
+        ],
+        [
+          "clothes",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Helping",
+          "VERB"
+        ],
+        [
+          "her",
+          "PRON"
+        ],
+        [
+          "cousin",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "deaf",
+          "NOUN"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "walked",
+          "VERB"
+        ],
+        [
+          "and",
+          "CONJ"
+        ],
+        [
+          "carried",
+          "VERB"
+        ],
+        [
+          "clothes",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "her cousin",
+        "the deaf woman",
+        "clothes"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.804,
+        "pos": 0.196,
+        "compound": 0.296
+      },
+      "word_frequency": [
+        {
+          "word": "helping",
+          "count": 1
+        },
+        {
+          "word": "cousin",
+          "count": 1
+        },
+        {
+          "word": "deaf",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7
+    },
+    {
+      "sentence_number": 13,
+      "original_sentence": "Despite the limited supply, I was able to buy some candy.",
+      "summarized_sentence": "Despite the limited supply, I was",
+      "tokens": [
+        "Despite",
+        "the",
+        "limited",
+        "supply",
+        ",",
+        "I",
+        "was",
+        "able",
+        "to",
+        "buy",
+        "some",
+        "candy",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Despite",
+          "the"
+        ],
+        [
+          "the",
+          "limited"
+        ],
+        [
+          "limited",
+          "supply"
+        ],
+        [
+          "supply",
+          ","
+        ],
+        [
+          ",",
+          "I"
+        ],
+        [
+          "I",
+          "was"
+        ],
+        [
+          "was",
+          "able"
+        ],
+        [
+          "able",
+          "to"
+        ],
+        [
+          "to",
+          "buy"
+        ],
+        [
+          "buy",
+          "some"
+        ],
+        [
+          "some",
+          "candy"
+        ],
+        [
+          "candy",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Despite",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "limited",
+          "ADJ"
+        ],
+        [
+          "supply",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "I",
+          "PRON"
+        ],
+        [
+          "was",
+          "VERB"
+        ],
+        [
+          "able",
+          "ADJ"
+        ],
+        [
+          "to",
+          "PRT"
+        ],
+        [
+          "buy",
+          "VERB"
+        ],
+        [
+          "some",
+          "DET"
+        ],
+        [
+          "candy",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "the limited supply",
+        "I",
+        "some candy"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.844,
+        "pos": 0.156,
+        "compound": 0.1695
+      },
+      "word_frequency": [
+        {
+          "word": "despite",
+          "count": 1
+        },
+        {
+          "word": "limited",
+          "count": 1
+        },
+        {
+          "word": "supply",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5454545454545454
+    },
+    {
+      "sentence_number": 14,
+      "original_sentence": "Finishing his fine meal, the thin man departed the restaurant.",
+      "summarized_sentence": "The thin man left the restaurant with",
+      "tokens": [
+        "Finishing",
+        "his",
+        "fine",
+        "meal",
+        ",",
+        "the",
+        "thin",
+        "man",
+        "departed",
+        "the",
+        "restaurant",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Finishing",
+          "his"
+        ],
+        [
+          "his",
+          "fine"
+        ],
+        [
+          "fine",
+          "meal"
+        ],
+        [
+          "meal",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "thin"
+        ],
+        [
+          "thin",
+          "man"
+        ],
+        [
+          "man",
+          "departed"
+        ],
+        [
+          "departed",
+          "the"
+        ],
+        [
+          "the",
+          "restaurant"
+        ],
+        [
+          "restaurant",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Finishing",
+          "VERB"
+        ],
+        [
+          "his",
+          "PRON"
+        ],
+        [
+          "fine",
+          "ADJ"
+        ],
+        [
+          "meal",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "thin",
+          "ADJ"
+        ],
+        [
+          "man",
+          "NOUN"
+        ],
+        [
+          "departed",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "restaurant",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "his fine meal",
+        "the thin man",
+        "the restaurant"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.833,
+        "pos": 0.167,
+        "compound": 0.2023
+      },
+      "word_frequency": [
+        {
+          "word": "finishing",
+          "count": 1
+        },
+        {
+          "word": "fine",
+          "count": 1
+        },
+        {
+          "word": "meal",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7
+    },
+    {
+      "sentence_number": 15,
+      "original_sentence": "Chasing the blue ball, the black dog played at the bowling alley.",
+      "summarized_sentence": "The black dog played at the bowling",
+      "tokens": [
+        "Chasing",
+        "the",
+        "blue",
+        "ball",
+        ",",
+        "the",
+        "black",
+        "dog",
+        "played",
+        "at",
+        "the",
+        "bowling",
+        "alley",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Chasing",
+          "the"
+        ],
+        [
+          "the",
+          "blue"
+        ],
+        [
+          "blue",
+          "ball"
+        ],
+        [
+          "ball",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "black"
+        ],
+        [
+          "black",
+          "dog"
+        ],
+        [
+          "dog",
+          "played"
+        ],
+        [
+          "played",
+          "at"
+        ],
+        [
+          "at",
+          "the"
+        ],
+        [
+          "the",
+          "bowling"
+        ],
+        [
+          "bowling",
+          "alley"
+        ],
+        [
+          "alley",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Chasing",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "blue",
+          "NOUN"
+        ],
+        [
+          "ball",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "black",
+          "ADJ"
+        ],
+        [
+          "dog",
+          "NOUN"
+        ],
+        [
+          "played",
+          "VERB"
+        ],
+        [
+          "at",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "bowling",
+          "NOUN"
+        ],
+        [
+          "alley",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "the blue ball",
+        "the black dog",
+        "the bowling alley"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.821,
+        "pos": 0.179,
+        "compound": 0.34
+      },
+      "word_frequency": [
+        {
+          "word": "chasing",
+          "count": 1
+        },
+        {
+          "word": "blue",
+          "count": 1
+        },
+        {
+          "word": "ball",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5833333333333334
+    },
+    {
+      "sentence_number": 16,
+      "original_sentence": "The family savored their hot, homemade Thanksgiving feast.",
+      "summarized_sentence": "The family savored their hot,",
+      "tokens": [
+        "The",
+        "family",
+        "savored",
+        "their",
+        "hot",
+        ",",
+        "homemade",
+        "Thanksgiving",
+        "feast",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "family"
+        ],
+        [
+          "family",
+          "savored"
+        ],
+        [
+          "savored",
+          "their"
+        ],
+        [
+          "their",
+          "hot"
+        ],
+        [
+          "hot",
+          ","
+        ],
+        [
+          ",",
+          "homemade"
+        ],
+        [
+          "homemade",
+          "Thanksgiving"
+        ],
+        [
+          "Thanksgiving",
+          "feast"
+        ],
+        [
+          "feast",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "family",
+          "NOUN"
+        ],
+        [
+          "savored",
+          "VERB"
+        ],
+        [
+          "their",
+          "PRON"
+        ],
+        [
+          "hot",
+          "ADJ"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "homemade",
+          "ADJ"
+        ],
+        [
+          "Thanksgiving",
+          "NOUN"
+        ],
+        [
+          "feast",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [
+        [
+          "Thanksgiving",
+          "DATE"
+        ]
+      ],
+      "noun_phrases": [
+        "The family",
+        "their hot, homemade Thanksgiving feast"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "family",
+          "count": 1
+        },
+        {
+          "word": "savored",
+          "count": 1
+        },
+        {
+          "word": "hot",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.625
+    },
+    {
+      "sentence_number": 17,
+      "original_sentence": "Graduation was the goal of the woman's language studies.",
+      "summarized_sentence": "The woman's language studies goal was",
+      "tokens": [
+        "Graduation",
+        "was",
+        "the",
+        "goal",
+        "of",
+        "the",
+        "woman",
+        "'s",
+        "language",
+        "studies",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Graduation",
+          "was"
+        ],
+        [
+          "was",
+          "the"
+        ],
+        [
+          "the",
+          "goal"
+        ],
+        [
+          "goal",
+          "of"
+        ],
+        [
+          "of",
+          "the"
+        ],
+        [
+          "the",
+          "woman"
+        ],
+        [
+          "woman",
+          "'s"
+        ],
+        [
+          "'s",
+          "language"
+        ],
+        [
+          "language",
+          "studies"
+        ],
+        [
+          "studies",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Graduation",
+          "NOUN"
+        ],
+        [
+          "was",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "goal",
+          "NOUN"
+        ],
+        [
+          "of",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "language",
+          "NOUN"
+        ],
+        [
+          "studies",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "Graduation",
+        "the goal",
+        "the woman's language studies"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "graduation",
+          "count": 1
+        },
+        {
+          "word": "goal",
+          "count": 1
+        },
+        {
+          "word": "woman",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6666666666666666
+    },
+    {
+      "sentence_number": 18,
+      "original_sentence": "The color changed when the bird flew into the corn field.",
+      "summarized_sentence": "The bird flew into the corn field",
+      "tokens": [
+        "The",
+        "color",
+        "changed",
+        "when",
+        "the",
+        "bird",
+        "flew",
+        "into",
+        "the",
+        "corn",
+        "field",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "color"
+        ],
+        [
+          "color",
+          "changed"
+        ],
+        [
+          "changed",
+          "when"
+        ],
+        [
+          "when",
+          "the"
+        ],
+        [
+          "the",
+          "bird"
+        ],
+        [
+          "bird",
+          "flew"
+        ],
+        [
+          "flew",
+          "into"
+        ],
+        [
+          "into",
+          "the"
+        ],
+        [
+          "the",
+          "corn"
+        ],
+        [
+          "corn",
+          "field"
+        ],
+        [
+          "field",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "color",
+          "NOUN"
+        ],
+        [
+          "changed",
+          "VERB"
+        ],
+        [
+          "when",
+          "ADV"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "bird",
+          "NOUN"
+        ],
+        [
+          "flew",
+          "VERB"
+        ],
+        [
+          "into",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "corn",
+          "NOUN"
+        ],
+        [
+          "field",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The color",
+        "the bird",
+        "the corn field"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "color",
+          "count": 1
+        },
+        {
+          "word": "changed",
+          "count": 1
+        },
+        {
+          "word": "bird",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6363636363636364
+    },
+    {
+      "sentence_number": 19,
+      "original_sentence": "The school celebrated the basketball player's three-point shot.",
+      "summarized_sentence": "The school celebrated the basketball player's",
+      "tokens": [
+        "The",
+        "school",
+        "celebrated",
+        "the",
+        "basketball",
+        "player",
+        "'s",
+        "three-point",
+        "shot",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "school"
+        ],
+        [
+          "school",
+          "celebrated"
+        ],
+        [
+          "celebrated",
+          "the"
+        ],
+        [
+          "the",
+          "basketball"
+        ],
+        [
+          "basketball",
+          "player"
+        ],
+        [
+          "player",
+          "'s"
+        ],
+        [
+          "'s",
+          "three-point"
+        ],
+        [
+          "three-point",
+          "shot"
+        ],
+        [
+          "shot",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "school",
+          "NOUN"
+        ],
+        [
+          "celebrated",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "basketball",
+          "NOUN"
+        ],
+        [
+          "player",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "three-point",
+          "NOUN"
+        ],
+        [
+          "shot",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [
+        [
+          "three",
+          "CARDINAL"
+        ]
+      ],
+      "noun_phrases": [
+        "The school",
+        "the basketball player's three-point shot"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.654,
+        "pos": 0.346,
+        "compound": 0.5719
+      },
+      "word_frequency": [
+        {
+          "word": "school",
+          "count": 1
+        },
+        {
+          "word": "celebrated",
+          "count": 1
+        },
+        {
+          "word": "basketball",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.75
+    },
+    {
+      "sentence_number": 20,
+      "original_sentence": "Dangerous, slick roads resulted from the city's heavy snowfall.",
+      "summarized_sentence": "Dangerous, slick roads resulted",
+      "tokens": [
+        "Dangerous",
+        ",",
+        "slick",
+        "roads",
+        "resulted",
+        "from",
+        "the",
+        "city",
+        "'s",
+        "heavy",
+        "snowfall",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Dangerous",
+          ","
+        ],
+        [
+          ",",
+          "slick"
+        ],
+        [
+          "slick",
+          "roads"
+        ],
+        [
+          "roads",
+          "resulted"
+        ],
+        [
+          "resulted",
+          "from"
+        ],
+        [
+          "from",
+          "the"
+        ],
+        [
+          "the",
+          "city"
+        ],
+        [
+          "city",
+          "'s"
+        ],
+        [
+          "'s",
+          "heavy"
+        ],
+        [
+          "heavy",
+          "snowfall"
+        ],
+        [
+          "snowfall",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Dangerous",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "slick",
+          "ADJ"
+        ],
+        [
+          "roads",
+          "NOUN"
+        ],
+        [
+          "resulted",
+          "VERB"
+        ],
+        [
+          "from",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "city",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "heavy",
+          "ADJ"
+        ],
+        [
+          "snowfall",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [
+        [
+          "Dangerous",
+          "PERSON"
+        ]
+      ],
+      "noun_phrases": [
+        "Dangerous, slick roads",
+        "the city's heavy snowfall"
+      ],
+      "sentiment": {
+        "neg": 0.279,
+        "neu": 0.721,
+        "pos": 0.0,
+        "compound": -0.4767
+      },
+      "word_frequency": [
+        {
+          "word": "dangerous",
+          "count": 1
+        },
+        {
+          "word": "slick",
+          "count": 1
+        },
+        {
+          "word": "roads",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.4444444444444444
+    },
+    {
+      "sentence_number": 21,
+      "original_sentence": "The table holds a book, which is a computer before the chair.",
+      "summarized_sentence": "The table holds a book, which",
+      "tokens": [
+        "The",
+        "table",
+        "holds",
+        "a",
+        "book",
+        ",",
+        "which",
+        "is",
+        "a",
+        "computer",
+        "before",
+        "the",
+        "chair",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "table"
+        ],
+        [
+          "table",
+          "holds"
+        ],
+        [
+          "holds",
+          "a"
+        ],
+        [
+          "a",
+          "book"
+        ],
+        [
+          "book",
+          ","
+        ],
+        [
+          ",",
+          "which"
+        ],
+        [
+          "which",
+          "is"
+        ],
+        [
+          "is",
+          "a"
+        ],
+        [
+          "a",
+          "computer"
+        ],
+        [
+          "computer",
+          "before"
+        ],
+        [
+          "before",
+          "the"
+        ],
+        [
+          "the",
+          "chair"
+        ],
+        [
+          "chair",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "table",
+          "NOUN"
+        ],
+        [
+          "holds",
+          "VERB"
+        ],
+        [
+          "a",
+          "DET"
+        ],
+        [
+          "book",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "which",
+          "DET"
+        ],
+        [
+          "is",
+          "VERB"
+        ],
+        [
+          "a",
+          "DET"
+        ],
+        [
+          "computer",
+          "NOUN"
+        ],
+        [
+          "before",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "chair",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The table",
+        "a book",
+        "which",
+        "a computer",
+        "the chair"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "table",
+          "count": 1
+        },
+        {
+          "word": "holds",
+          "count": 1
+        },
+        {
+          "word": "book",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5
+    },
+    {
+      "sentence_number": 22,
+      "original_sentence": "As they walked, the deaf woman's cousin helped carry the clothes.",
+      "summarized_sentence": "The deaf woman's cousin helped carry",
+      "tokens": [
+        "As",
+        "they",
+        "walked",
+        ",",
+        "the",
+        "deaf",
+        "woman",
+        "'s",
+        "cousin",
+        "helped",
+        "carry",
+        "the",
+        "clothes",
+        "."
+      ],
+      "bigrams": [
+        [
+          "As",
+          "they"
+        ],
+        [
+          "they",
+          "walked"
+        ],
+        [
+          "walked",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "deaf"
+        ],
+        [
+          "deaf",
+          "woman"
+        ],
+        [
+          "woman",
+          "'s"
+        ],
+        [
+          "'s",
+          "cousin"
+        ],
+        [
+          "cousin",
+          "helped"
+        ],
+        [
+          "helped",
+          "carry"
+        ],
+        [
+          "carry",
+          "the"
+        ],
+        [
+          "the",
+          "clothes"
+        ],
+        [
+          "clothes",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "As",
+          "ADP"
+        ],
+        [
+          "they",
+          "PRON"
+        ],
+        [
+          "walked",
+          "VERB"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "deaf",
+          "NOUN"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "cousin",
+          "NOUN"
+        ],
+        [
+          "helped",
+          "VERB"
+        ],
+        [
+          "carry",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "clothes",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "they",
+        "the deaf woman's cousin",
+        "the clothes"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "walked",
+          "count": 1
+        },
+        {
+          "word": "deaf",
+          "count": 1
+        },
+        {
+          "word": "woman",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5454545454545454
+    },
+    {
+      "sentence_number": 23,
+      "original_sentence": "I managed to purchase some candy, even with the store's shortage.",
+      "summarized_sentence": "I managed to purchase some candy,",
+      "tokens": [
+        "I",
+        "managed",
+        "to",
+        "purchase",
+        "some",
+        "candy",
+        ",",
+        "even",
+        "with",
+        "the",
+        "store",
+        "'s",
+        "shortage",
+        "."
+      ],
+      "bigrams": [
+        [
+          "I",
+          "managed"
+        ],
+        [
+          "managed",
+          "to"
+        ],
+        [
+          "to",
+          "purchase"
+        ],
+        [
+          "purchase",
+          "some"
+        ],
+        [
+          "some",
+          "candy"
+        ],
+        [
+          "candy",
+          ","
+        ],
+        [
+          ",",
+          "even"
+        ],
+        [
+          "even",
+          "with"
+        ],
+        [
+          "with",
+          "the"
+        ],
+        [
+          "the",
+          "store"
+        ],
+        [
+          "store",
+          "'s"
+        ],
+        [
+          "'s",
+          "shortage"
+        ],
+        [
+          "shortage",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "I",
+          "PRON"
+        ],
+        [
+          "managed",
+          "VERB"
+        ],
+        [
+          "to",
+          "PRT"
+        ],
+        [
+          "purchase",
+          "VERB"
+        ],
+        [
+          "some",
+          "DET"
+        ],
+        [
+          "candy",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "even",
+          "ADV"
+        ],
+        [
+          "with",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "store",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "shortage",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "I",
+        "some candy",
+        "the store's shortage"
+      ],
+      "sentiment": {
+        "neg": 0.182,
+        "neu": 0.818,
+        "pos": 0.0,
+        "compound": -0.25
+      },
+      "word_frequency": [
+        {
+          "word": "managed",
+          "count": 1
+        },
+        {
+          "word": "purchase",
+          "count": 1
+        },
+        {
+          "word": "candy",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5454545454545454
+    },
+    {
+      "sentence_number": 24,
+      "original_sentence": "After finishing his fine meal, the thin man left the restaurant.",
+      "summarized_sentence": "The thin man left the restaurant after",
+      "tokens": [
+        "After",
+        "finishing",
+        "his",
+        "fine",
+        "meal",
+        ",",
+        "the",
+        "thin",
+        "man",
+        "left",
+        "the",
+        "restaurant",
+        "."
+      ],
+      "bigrams": [
+        [
+          "After",
+          "finishing"
+        ],
+        [
+          "finishing",
+          "his"
+        ],
+        [
+          "his",
+          "fine"
+        ],
+        [
+          "fine",
+          "meal"
+        ],
+        [
+          "meal",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "thin"
+        ],
+        [
+          "thin",
+          "man"
+        ],
+        [
+          "man",
+          "left"
+        ],
+        [
+          "left",
+          "the"
+        ],
+        [
+          "the",
+          "restaurant"
+        ],
+        [
+          "restaurant",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "After",
+          "ADP"
+        ],
+        [
+          "finishing",
+          "VERB"
+        ],
+        [
+          "his",
+          "PRON"
+        ],
+        [
+          "fine",
+          "ADJ"
+        ],
+        [
+          "meal",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "thin",
+          "ADJ"
+        ],
+        [
+          "man",
+          "NOUN"
+        ],
+        [
+          "left",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "restaurant",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "his fine meal",
+        "the thin man",
+        "the restaurant"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.847,
+        "pos": 0.153,
+        "compound": 0.2023
+      },
+      "word_frequency": [
+        {
+          "word": "finishing",
+          "count": 1
+        },
+        {
+          "word": "fine",
+          "count": 1
+        },
+        {
+          "word": "meal",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6363636363636364
+    },
+    {
+      "sentence_number": 25,
+      "original_sentence": "The black dog played with the blue ball, chasing it at the table.",
+      "summarized_sentence": "The black dog played with the blue",
+      "tokens": [
+        "The",
+        "black",
+        "dog",
+        "played",
+        "with",
+        "the",
+        "blue",
+        "ball",
+        ",",
+        "chasing",
+        "it",
+        "at",
+        "the",
+        "table",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "black"
+        ],
+        [
+          "black",
+          "dog"
+        ],
+        [
+          "dog",
+          "played"
+        ],
+        [
+          "played",
+          "with"
+        ],
+        [
+          "with",
+          "the"
+        ],
+        [
+          "the",
+          "blue"
+        ],
+        [
+          "blue",
+          "ball"
+        ],
+        [
+          "ball",
+          ","
+        ],
+        [
+          ",",
+          "chasing"
+        ],
+        [
+          "chasing",
+          "it"
+        ],
+        [
+          "it",
+          "at"
+        ],
+        [
+          "at",
+          "the"
+        ],
+        [
+          "the",
+          "table"
+        ],
+        [
+          "table",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "black",
+          "ADJ"
+        ],
+        [
+          "dog",
+          "NOUN"
+        ],
+        [
+          "played",
+          "VERB"
+        ],
+        [
+          "with",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "blue",
+          "NOUN"
+        ],
+        [
+          "ball",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "chasing",
+          "VERB"
+        ],
+        [
+          "it",
+          "PRON"
+        ],
+        [
+          "at",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "table",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The black dog",
+        "the blue ball",
+        "it",
+        "the table"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.833,
+        "pos": 0.167,
+        "compound": 0.34
+      },
+      "word_frequency": [
+        {
+          "word": "black",
+          "count": 1
+        },
+        {
+          "word": "dog",
+          "count": 1
+        },
+        {
+          "word": "played",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5384615384615384
+    },
+    {
+      "sentence_number": 26,
+      "original_sentence": "Gathering for Thanksgiving, the family enjoyed a hot, homemade meal.",
+      "summarized_sentence": "The family enjoyed a hot, homemade",
+      "tokens": [
+        "Gathering",
+        "for",
+        "Thanksgiving",
+        ",",
+        "the",
+        "family",
+        "enjoyed",
+        "a",
+        "hot",
+        ",",
+        "homemade",
+        "meal",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Gathering",
+          "for"
+        ],
+        [
+          "for",
+          "Thanksgiving"
+        ],
+        [
+          "Thanksgiving",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "family"
+        ],
+        [
+          "family",
+          "enjoyed"
+        ],
+        [
+          "enjoyed",
+          "a"
+        ],
+        [
+          "a",
+          "hot"
+        ],
+        [
+          "hot",
+          ","
+        ],
+        [
+          ",",
+          "homemade"
+        ],
+        [
+          "homemade",
+          "meal"
+        ],
+        [
+          "meal",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Gathering",
+          "VERB"
+        ],
+        [
+          "for",
+          "ADP"
+        ],
+        [
+          "Thanksgiving",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "family",
+          "NOUN"
+        ],
+        [
+          "enjoyed",
+          "VERB"
+        ],
+        [
+          "a",
+          "DET"
+        ],
+        [
+          "hot",
+          "ADJ"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "homemade",
+          "ADJ"
+        ],
+        [
+          "meal",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [
+        [
+          "Thanksgiving",
+          "DATE"
+        ]
+      ],
+      "noun_phrases": [
+        "Thanksgiving",
+        "the family",
+        "a hot, homemade meal"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.708,
+        "pos": 0.292,
+        "compound": 0.5106
+      },
+      "word_frequency": [
+        {
+          "word": "gathering",
+          "count": 1
+        },
+        {
+          "word": "thanksgiving",
+          "count": 1
+        },
+        {
+          "word": "family",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6
+    },
+    {
+      "sentence_number": 27,
+      "original_sentence": "The woman's language studies were part of her graduation work.",
+      "summarized_sentence": "The woman's language studies were part",
+      "tokens": [
+        "The",
+        "woman",
+        "'s",
+        "language",
+        "studies",
+        "were",
+        "part",
+        "of",
+        "her",
+        "graduation",
+        "work",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "woman"
+        ],
+        [
+          "woman",
+          "'s"
+        ],
+        [
+          "'s",
+          "language"
+        ],
+        [
+          "language",
+          "studies"
+        ],
+        [
+          "studies",
+          "were"
+        ],
+        [
+          "were",
+          "part"
+        ],
+        [
+          "part",
+          "of"
+        ],
+        [
+          "of",
+          "her"
+        ],
+        [
+          "her",
+          "graduation"
+        ],
+        [
+          "graduation",
+          "work"
+        ],
+        [
+          "work",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "language",
+          "NOUN"
+        ],
+        [
+          "studies",
+          "NOUN"
+        ],
+        [
+          "were",
+          "VERB"
+        ],
+        [
+          "part",
+          "NOUN"
+        ],
+        [
+          "of",
+          "ADP"
+        ],
+        [
+          "her",
+          "PRON"
+        ],
+        [
+          "graduation",
+          "NOUN"
+        ],
+        [
+          "work",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The woman's language studies",
+        "part",
+        "her graduation work"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "woman",
+          "count": 1
+        },
+        {
+          "word": "language",
+          "count": 1
+        },
+        {
+          "word": "studies",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6
+    },
+    {
+      "sentence_number": 28,
+      "original_sentence": "Entering the corn field, the bird altered the surrounding color.",
+      "summarized_sentence": "The bird altered the surrounding color of",
+      "tokens": [
+        "Entering",
+        "the",
+        "corn",
+        "field",
+        ",",
+        "the",
+        "bird",
+        "altered",
+        "the",
+        "surrounding",
+        "color",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Entering",
+          "the"
+        ],
+        [
+          "the",
+          "corn"
+        ],
+        [
+          "corn",
+          "field"
+        ],
+        [
+          "field",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "bird"
+        ],
+        [
+          "bird",
+          "altered"
+        ],
+        [
+          "altered",
+          "the"
+        ],
+        [
+          "the",
+          "surrounding"
+        ],
+        [
+          "surrounding",
+          "color"
+        ],
+        [
+          "color",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Entering",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "corn",
+          "NOUN"
+        ],
+        [
+          "field",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "bird",
+          "NOUN"
+        ],
+        [
+          "altered",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "surrounding",
+          "VERB"
+        ],
+        [
+          "color",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "the corn field",
+        "the bird",
+        "the surrounding color"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "entering",
+          "count": 1
+        },
+        {
+          "word": "corn",
+          "count": 1
+        },
+        {
+          "word": "field",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7
+    },
+    {
+      "sentence_number": 29,
+      "original_sentence": "The school's victory came thanks to the basketball player's shot.",
+      "summarized_sentence": "The school's victory came thanks to",
+      "tokens": [
+        "The",
+        "school",
+        "'s",
+        "victory",
+        "came",
+        "thanks",
+        "to",
+        "the",
+        "basketball",
+        "player",
+        "'s",
+        "shot",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "school"
+        ],
+        [
+          "school",
+          "'s"
+        ],
+        [
+          "'s",
+          "victory"
+        ],
+        [
+          "victory",
+          "came"
+        ],
+        [
+          "came",
+          "thanks"
+        ],
+        [
+          "thanks",
+          "to"
+        ],
+        [
+          "to",
+          "the"
+        ],
+        [
+          "the",
+          "basketball"
+        ],
+        [
+          "basketball",
+          "player"
+        ],
+        [
+          "player",
+          "'s"
+        ],
+        [
+          "'s",
+          "shot"
+        ],
+        [
+          "shot",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "school",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "victory",
+          "NOUN"
+        ],
+        [
+          "came",
+          "VERB"
+        ],
+        [
+          "thanks",
+          "NOUN"
+        ],
+        [
+          "to",
+          "PRT"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "basketball",
+          "NOUN"
+        ],
+        [
+          "player",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "shot",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The school's victory",
+        "the basketball player's shot"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.756,
+        "pos": 0.244,
+        "compound": 0.4404
+      },
+      "word_frequency": [
+        {
+          "word": "school",
+          "count": 1
+        },
+        {
+          "word": "victory",
+          "count": 1
+        },
+        {
+          "word": "came",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6
+    },
+    {
+      "sentence_number": 30,
+      "original_sentence": "Heavy snowfall led to dangerous, slick conditions on city roads.",
+      "summarized_sentence": "Heavy snowfall led to dangerous,",
+      "tokens": [
+        "Heavy",
+        "snowfall",
+        "led",
+        "to",
+        "dangerous",
+        ",",
+        "slick",
+        "conditions",
+        "on",
+        "city",
+        "roads",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Heavy",
+          "snowfall"
+        ],
+        [
+          "snowfall",
+          "led"
+        ],
+        [
+          "led",
+          "to"
+        ],
+        [
+          "to",
+          "dangerous"
+        ],
+        [
+          "dangerous",
+          ","
+        ],
+        [
+          ",",
+          "slick"
+        ],
+        [
+          "slick",
+          "conditions"
+        ],
+        [
+          "conditions",
+          "on"
+        ],
+        [
+          "on",
+          "city"
+        ],
+        [
+          "city",
+          "roads"
+        ],
+        [
+          "roads",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Heavy",
+          "NOUN"
+        ],
+        [
+          "snowfall",
+          "NOUN"
+        ],
+        [
+          "led",
+          "VERB"
+        ],
+        [
+          "to",
+          "PRT"
+        ],
+        [
+          "dangerous",
+          "ADJ"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "slick",
+          "ADJ"
+        ],
+        [
+          "conditions",
+          "NOUN"
+        ],
+        [
+          "on",
+          "ADP"
+        ],
+        [
+          "city",
+          "NOUN"
+        ],
+        [
+          "roads",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "Heavy snowfall",
+        "dangerous, slick conditions",
+        "city roads"
+      ],
+      "sentiment": {
+        "neg": 0.256,
+        "neu": 0.744,
+        "pos": 0.0,
+        "compound": -0.4767
+      },
+      "word_frequency": [
+        {
+          "word": "heavy",
+          "count": 1
+        },
+        {
+          "word": "snowfall",
+          "count": 1
+        },
+        {
+          "word": "led",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5
+    },
+    {
+      "sentence_number": 31,
+      "original_sentence": "A computer rests on the table before the book on the chair.",
+      "summarized_sentence": "A book is placed on a table",
+      "tokens": [
+        "A",
+        "computer",
+        "rests",
+        "on",
+        "the",
+        "table",
+        "before",
+        "the",
+        "book",
+        "on",
+        "the",
+        "chair",
+        "."
+      ],
+      "bigrams": [
+        [
+          "A",
+          "computer"
+        ],
+        [
+          "computer",
+          "rests"
+        ],
+        [
+          "rests",
+          "on"
+        ],
+        [
+          "on",
+          "the"
+        ],
+        [
+          "the",
+          "table"
+        ],
+        [
+          "table",
+          "before"
+        ],
+        [
+          "before",
+          "the"
+        ],
+        [
+          "the",
+          "book"
+        ],
+        [
+          "book",
+          "on"
+        ],
+        [
+          "on",
+          "the"
+        ],
+        [
+          "the",
+          "chair"
+        ],
+        [
+          "chair",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "A",
+          "DET"
+        ],
+        [
+          "computer",
+          "NOUN"
+        ],
+        [
+          "rests",
+          "VERB"
+        ],
+        [
+          "on",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "table",
+          "NOUN"
+        ],
+        [
+          "before",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "book",
+          "NOUN"
+        ],
+        [
+          "on",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "chair",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "A computer",
+        "the table",
+        "the book",
+        "the chair"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "computer",
+          "count": 1
+        },
+        {
+          "word": "rests",
+          "count": 1
+        },
+        {
+          "word": "table",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5833333333333334
+    },
+    {
+      "sentence_number": 32,
+      "original_sentence": "Carrying clothes, the deaf woman walked with her helpful cousin.",
+      "summarized_sentence": "The deaf woman walked with her helpful",
+      "tokens": [
+        "Carrying",
+        "clothes",
+        ",",
+        "the",
+        "deaf",
+        "woman",
+        "walked",
+        "with",
+        "her",
+        "helpful",
+        "cousin",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Carrying",
+          "clothes"
+        ],
+        [
+          "clothes",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "deaf"
+        ],
+        [
+          "deaf",
+          "woman"
+        ],
+        [
+          "woman",
+          "walked"
+        ],
+        [
+          "walked",
+          "with"
+        ],
+        [
+          "with",
+          "her"
+        ],
+        [
+          "her",
+          "helpful"
+        ],
+        [
+          "helpful",
+          "cousin"
+        ],
+        [
+          "cousin",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Carrying",
+          "VERB"
+        ],
+        [
+          "clothes",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "deaf",
+          "NOUN"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "walked",
+          "VERB"
+        ],
+        [
+          "with",
+          "ADP"
+        ],
+        [
+          "her",
+          "PRON"
+        ],
+        [
+          "helpful",
+          "ADJ"
+        ],
+        [
+          "cousin",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "clothes",
+        "the deaf woman",
+        "her helpful cousin"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.763,
+        "pos": 0.237,
+        "compound": 0.4215
+      },
+      "word_frequency": [
+        {
+          "word": "carrying",
+          "count": 1
+        },
+        {
+          "word": "clothes",
+          "count": 1
+        },
+        {
+          "word": "deaf",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7
+    },
+    {
+      "sentence_number": 33,
+      "original_sentence": "The store had limited candy, but I was still able to buy some.",
+      "summarized_sentence": "The store had limited candy, but",
+      "tokens": [
+        "The",
+        "store",
+        "had",
+        "limited",
+        "candy",
+        ",",
+        "but",
+        "I",
+        "was",
+        "still",
+        "able",
+        "to",
+        "buy",
+        "some",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "store"
+        ],
+        [
+          "store",
+          "had"
+        ],
+        [
+          "had",
+          "limited"
+        ],
+        [
+          "limited",
+          "candy"
+        ],
+        [
+          "candy",
+          ","
+        ],
+        [
+          ",",
+          "but"
+        ],
+        [
+          "but",
+          "I"
+        ],
+        [
+          "I",
+          "was"
+        ],
+        [
+          "was",
+          "still"
+        ],
+        [
+          "still",
+          "able"
+        ],
+        [
+          "able",
+          "to"
+        ],
+        [
+          "to",
+          "buy"
+        ],
+        [
+          "buy",
+          "some"
+        ],
+        [
+          "some",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "store",
+          "NOUN"
+        ],
+        [
+          "had",
+          "VERB"
+        ],
+        [
+          "limited",
+          "VERB"
+        ],
+        [
+          "candy",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "but",
+          "CONJ"
+        ],
+        [
+          "I",
+          "PRON"
+        ],
+        [
+          "was",
+          "VERB"
+        ],
+        [
+          "still",
+          "ADV"
+        ],
+        [
+          "able",
+          "ADJ"
+        ],
+        [
+          "to",
+          "PRT"
+        ],
+        [
+          "buy",
+          "VERB"
+        ],
+        [
+          "some",
+          "DET"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The store",
+        "limited candy",
+        "I",
+        "some"
+      ],
+      "sentiment": {
+        "neg": 0.116,
+        "neu": 0.884,
+        "pos": 0.0,
+        "compound": -0.1154
+      },
+      "word_frequency": [
+        {
+          "word": "store",
+          "count": 1
+        },
+        {
+          "word": "limited",
+          "count": 1
+        },
+        {
+          "word": "candy",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.46153846153846156
+    },
+    {
+      "sentence_number": 34,
+      "original_sentence": "Leaving the restaurant, the thin man had completed his fine meal.",
+      "summarized_sentence": "The thin man had completed his fine",
+      "tokens": [
+        "Leaving",
+        "the",
+        "restaurant",
+        ",",
+        "the",
+        "thin",
+        "man",
+        "had",
+        "completed",
+        "his",
+        "fine",
+        "meal",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Leaving",
+          "the"
+        ],
+        [
+          "the",
+          "restaurant"
+        ],
+        [
+          "restaurant",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "thin"
+        ],
+        [
+          "thin",
+          "man"
+        ],
+        [
+          "man",
+          "had"
+        ],
+        [
+          "had",
+          "completed"
+        ],
+        [
+          "completed",
+          "his"
+        ],
+        [
+          "his",
+          "fine"
+        ],
+        [
+          "fine",
+          "meal"
+        ],
+        [
+          "meal",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Leaving",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "restaurant",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "thin",
+          "ADJ"
+        ],
+        [
+          "man",
+          "NOUN"
+        ],
+        [
+          "had",
+          "VERB"
+        ],
+        [
+          "completed",
+          "VERB"
+        ],
+        [
+          "his",
+          "PRON"
+        ],
+        [
+          "fine",
+          "ADJ"
+        ],
+        [
+          "meal",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "the restaurant",
+        "the thin man",
+        "his fine meal"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.847,
+        "pos": 0.153,
+        "compound": 0.2023
+      },
+      "word_frequency": [
+        {
+          "word": "leaving",
+          "count": 1
+        },
+        {
+          "word": "restaurant",
+          "count": 1
+        },
+        {
+          "word": "thin",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6363636363636364
+    },
+    {
+      "sentence_number": 35,
+      "original_sentence": "Chasing the blue ball, the black dog played at the bowling alley.",
+      "summarized_sentence": "The black dog played at the bowling",
+      "tokens": [
+        "Chasing",
+        "the",
+        "blue",
+        "ball",
+        ",",
+        "the",
+        "black",
+        "dog",
+        "played",
+        "at",
+        "the",
+        "bowling",
+        "alley",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Chasing",
+          "the"
+        ],
+        [
+          "the",
+          "blue"
+        ],
+        [
+          "blue",
+          "ball"
+        ],
+        [
+          "ball",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "black"
+        ],
+        [
+          "black",
+          "dog"
+        ],
+        [
+          "dog",
+          "played"
+        ],
+        [
+          "played",
+          "at"
+        ],
+        [
+          "at",
+          "the"
+        ],
+        [
+          "the",
+          "bowling"
+        ],
+        [
+          "bowling",
+          "alley"
+        ],
+        [
+          "alley",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Chasing",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "blue",
+          "NOUN"
+        ],
+        [
+          "ball",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "black",
+          "ADJ"
+        ],
+        [
+          "dog",
+          "NOUN"
+        ],
+        [
+          "played",
+          "VERB"
+        ],
+        [
+          "at",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "bowling",
+          "NOUN"
+        ],
+        [
+          "alley",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "the blue ball",
+        "the black dog",
+        "the bowling alley"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.821,
+        "pos": 0.179,
+        "compound": 0.34
+      },
+      "word_frequency": [
+        {
+          "word": "chasing",
+          "count": 1
+        },
+        {
+          "word": "blue",
+          "count": 1
+        },
+        {
+          "word": "ball",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5833333333333334
+    },
+    {
+      "sentence_number": 36,
+      "original_sentence": "The family gathered to enjoy a hot, homemade Thanksgiving feast.",
+      "summarized_sentence": "The family gathered to enjoy a hot",
+      "tokens": [
+        "The",
+        "family",
+        "gathered",
+        "to",
+        "enjoy",
+        "a",
+        "hot",
+        ",",
+        "homemade",
+        "Thanksgiving",
+        "feast",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "family"
+        ],
+        [
+          "family",
+          "gathered"
+        ],
+        [
+          "gathered",
+          "to"
+        ],
+        [
+          "to",
+          "enjoy"
+        ],
+        [
+          "enjoy",
+          "a"
+        ],
+        [
+          "a",
+          "hot"
+        ],
+        [
+          "hot",
+          ","
+        ],
+        [
+          ",",
+          "homemade"
+        ],
+        [
+          "homemade",
+          "Thanksgiving"
+        ],
+        [
+          "Thanksgiving",
+          "feast"
+        ],
+        [
+          "feast",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "family",
+          "NOUN"
+        ],
+        [
+          "gathered",
+          "VERB"
+        ],
+        [
+          "to",
+          "PRT"
+        ],
+        [
+          "enjoy",
+          "VERB"
+        ],
+        [
+          "a",
+          "DET"
+        ],
+        [
+          "hot",
+          "ADJ"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "homemade",
+          "ADJ"
+        ],
+        [
+          "Thanksgiving",
+          "NOUN"
+        ],
+        [
+          "feast",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [
+        [
+          "Thanksgiving",
+          "DATE"
+        ]
+      ],
+      "noun_phrases": [
+        "The family",
+        "a hot, homemade Thanksgiving feast"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.714,
+        "pos": 0.286,
+        "compound": 0.4939
+      },
+      "word_frequency": [
+        {
+          "word": "family",
+          "count": 1
+        },
+        {
+          "word": "gathered",
+          "count": 1
+        },
+        {
+          "word": "enjoy",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7
+    },
+    {
+      "sentence_number": 37,
+      "original_sentence": "Graduation was the focus of the woman's language studies.",
+      "summarized_sentence": "The woman's language studies were the",
+      "tokens": [
+        "Graduation",
+        "was",
+        "the",
+        "focus",
+        "of",
+        "the",
+        "woman",
+        "'s",
+        "language",
+        "studies",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Graduation",
+          "was"
+        ],
+        [
+          "was",
+          "the"
+        ],
+        [
+          "the",
+          "focus"
+        ],
+        [
+          "focus",
+          "of"
+        ],
+        [
+          "of",
+          "the"
+        ],
+        [
+          "the",
+          "woman"
+        ],
+        [
+          "woman",
+          "'s"
+        ],
+        [
+          "'s",
+          "language"
+        ],
+        [
+          "language",
+          "studies"
+        ],
+        [
+          "studies",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Graduation",
+          "NOUN"
+        ],
+        [
+          "was",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "focus",
+          "NOUN"
+        ],
+        [
+          "of",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "language",
+          "NOUN"
+        ],
+        [
+          "studies",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "Graduation",
+        "the focus",
+        "the woman's language studies"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "graduation",
+          "count": 1
+        },
+        {
+          "word": "focus",
+          "count": 1
+        },
+        {
+          "word": "woman",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6666666666666666
+    },
+    {
+      "sentence_number": 38,
+      "original_sentence": "The bird's flight into the corn field changed the surrounding color.",
+      "summarized_sentence": "The bird's flight into the corn",
+      "tokens": [
+        "The",
+        "bird",
+        "'s",
+        "flight",
+        "into",
+        "the",
+        "corn",
+        "field",
+        "changed",
+        "the",
+        "surrounding",
+        "color",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "bird"
+        ],
+        [
+          "bird",
+          "'s"
+        ],
+        [
+          "'s",
+          "flight"
+        ],
+        [
+          "flight",
+          "into"
+        ],
+        [
+          "into",
+          "the"
+        ],
+        [
+          "the",
+          "corn"
+        ],
+        [
+          "corn",
+          "field"
+        ],
+        [
+          "field",
+          "changed"
+        ],
+        [
+          "changed",
+          "the"
+        ],
+        [
+          "the",
+          "surrounding"
+        ],
+        [
+          "surrounding",
+          "color"
+        ],
+        [
+          "color",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "bird",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "flight",
+          "NOUN"
+        ],
+        [
+          "into",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "corn",
+          "NOUN"
+        ],
+        [
+          "field",
+          "NOUN"
+        ],
+        [
+          "changed",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "surrounding",
+          "VERB"
+        ],
+        [
+          "color",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The bird's flight",
+        "the corn field",
+        "the surrounding color"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "bird",
+          "count": 1
+        },
+        {
+          "word": "flight",
+          "count": 1
+        },
+        {
+          "word": "corn",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5454545454545454
+    },
+    {
+      "sentence_number": 39,
+      "original_sentence": "The school celebrated their win thanks to the basketball player.",
+      "summarized_sentence": "The school celebrated their win thanks to",
+      "tokens": [
+        "The",
+        "school",
+        "celebrated",
+        "their",
+        "win",
+        "thanks",
+        "to",
+        "the",
+        "basketball",
+        "player",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "school"
+        ],
+        [
+          "school",
+          "celebrated"
+        ],
+        [
+          "celebrated",
+          "their"
+        ],
+        [
+          "their",
+          "win"
+        ],
+        [
+          "win",
+          "thanks"
+        ],
+        [
+          "thanks",
+          "to"
+        ],
+        [
+          "to",
+          "the"
+        ],
+        [
+          "the",
+          "basketball"
+        ],
+        [
+          "basketball",
+          "player"
+        ],
+        [
+          "player",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "school",
+          "NOUN"
+        ],
+        [
+          "celebrated",
+          "VERB"
+        ],
+        [
+          "their",
+          "PRON"
+        ],
+        [
+          "win",
+          "ADJ"
+        ],
+        [
+          "thanks",
+          "NOUN"
+        ],
+        [
+          "to",
+          "PRT"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "basketball",
+          "NOUN"
+        ],
+        [
+          "player",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The school",
+        "their win",
+        "the basketball player"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.402,
+        "pos": 0.598,
+        "compound": 0.886
+      },
+      "word_frequency": [
+        {
+          "word": "school",
+          "count": 1
+        },
+        {
+          "word": "celebrated",
+          "count": 1
+        },
+        {
+          "word": "win",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.7
+    },
+    {
+      "sentence_number": 40,
+      "original_sentence": "Slick, dangerous roads resulted from the city's heavy snowfall.",
+      "summarized_sentence": "Heavy snowfall causes dangerous roads in",
+      "tokens": [
+        "Slick",
+        ",",
+        "dangerous",
+        "roads",
+        "resulted",
+        "from",
+        "the",
+        "city",
+        "'s",
+        "heavy",
+        "snowfall",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Slick",
+          ","
+        ],
+        [
+          ",",
+          "dangerous"
+        ],
+        [
+          "dangerous",
+          "roads"
+        ],
+        [
+          "roads",
+          "resulted"
+        ],
+        [
+          "resulted",
+          "from"
+        ],
+        [
+          "from",
+          "the"
+        ],
+        [
+          "the",
+          "city"
+        ],
+        [
+          "city",
+          "'s"
+        ],
+        [
+          "'s",
+          "heavy"
+        ],
+        [
+          "heavy",
+          "snowfall"
+        ],
+        [
+          "snowfall",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Slick",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "dangerous",
+          "ADJ"
+        ],
+        [
+          "roads",
+          "NOUN"
+        ],
+        [
+          "resulted",
+          "VERB"
+        ],
+        [
+          "from",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "city",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "heavy",
+          "ADJ"
+        ],
+        [
+          "snowfall",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "dangerous roads",
+        "the city's heavy snowfall"
+      ],
+      "sentiment": {
+        "neg": 0.279,
+        "neu": 0.721,
+        "pos": 0.0,
+        "compound": -0.4767
+      },
+      "word_frequency": [
+        {
+          "word": "slick",
+          "count": 1
+        },
+        {
+          "word": "dangerous",
+          "count": 1
+        },
+        {
+          "word": "roads",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6666666666666666
+    },
+    {
+      "sentence_number": 41,
+      "original_sentence": "The chair holds a book, which is a computer before the table.",
+      "summarized_sentence": "The chair holds a book, which",
+      "tokens": [
+        "The",
+        "chair",
+        "holds",
+        "a",
+        "book",
+        ",",
+        "which",
+        "is",
+        "a",
+        "computer",
+        "before",
+        "the",
+        "table",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "chair"
+        ],
+        [
+          "chair",
+          "holds"
+        ],
+        [
+          "holds",
+          "a"
+        ],
+        [
+          "a",
+          "book"
+        ],
+        [
+          "book",
+          ","
+        ],
+        [
+          ",",
+          "which"
+        ],
+        [
+          "which",
+          "is"
+        ],
+        [
+          "is",
+          "a"
+        ],
+        [
+          "a",
+          "computer"
+        ],
+        [
+          "computer",
+          "before"
+        ],
+        [
+          "before",
+          "the"
+        ],
+        [
+          "the",
+          "table"
+        ],
+        [
+          "table",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "chair",
+          "NOUN"
+        ],
+        [
+          "holds",
+          "VERB"
+        ],
+        [
+          "a",
+          "DET"
+        ],
+        [
+          "book",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "which",
+          "DET"
+        ],
+        [
+          "is",
+          "VERB"
+        ],
+        [
+          "a",
+          "DET"
+        ],
+        [
+          "computer",
+          "NOUN"
+        ],
+        [
+          "before",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "table",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The chair",
+        "a book",
+        "which",
+        "a computer",
+        "the table"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "chair",
+          "count": 1
+        },
+        {
+          "word": "holds",
+          "count": 1
+        },
+        {
+          "word": "book",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5
+    },
+    {
+      "sentence_number": 42,
+      "original_sentence": "The deaf woman's cousin assisted her in carrying the clothes.",
+      "summarized_sentence": "The deaf woman's cousin assisted her",
+      "tokens": [
+        "The",
+        "deaf",
+        "woman",
+        "'s",
+        "cousin",
+        "assisted",
+        "her",
+        "in",
+        "carrying",
+        "the",
+        "clothes",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "deaf"
+        ],
+        [
+          "deaf",
+          "woman"
+        ],
+        [
+          "woman",
+          "'s"
+        ],
+        [
+          "'s",
+          "cousin"
+        ],
+        [
+          "cousin",
+          "assisted"
+        ],
+        [
+          "assisted",
+          "her"
+        ],
+        [
+          "her",
+          "in"
+        ],
+        [
+          "in",
+          "carrying"
+        ],
+        [
+          "carrying",
+          "the"
+        ],
+        [
+          "the",
+          "clothes"
+        ],
+        [
+          "clothes",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "deaf",
+          "NOUN"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "cousin",
+          "NOUN"
+        ],
+        [
+          "assisted",
+          "VERB"
+        ],
+        [
+          "her",
+          "PRON"
+        ],
+        [
+          "in",
+          "ADP"
+        ],
+        [
+          "carrying",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "clothes",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The deaf woman's cousin",
+        "her",
+        "the clothes"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "deaf",
+          "count": 1
+        },
+        {
+          "word": "woman",
+          "count": 1
+        },
+        {
+          "word": "cousin",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6
+    },
+    {
+      "sentence_number": 43,
+      "original_sentence": "I found candy to buy, even though the store's supply was limited.",
+      "summarized_sentence": "I found candy to buy, even",
+      "tokens": [
+        "I",
+        "found",
+        "candy",
+        "to",
+        "buy",
+        ",",
+        "even",
+        "though",
+        "the",
+        "store",
+        "'s",
+        "supply",
+        "was",
+        "limited",
+        "."
+      ],
+      "bigrams": [
+        [
+          "I",
+          "found"
+        ],
+        [
+          "found",
+          "candy"
+        ],
+        [
+          "candy",
+          "to"
+        ],
+        [
+          "to",
+          "buy"
+        ],
+        [
+          "buy",
+          ","
+        ],
+        [
+          ",",
+          "even"
+        ],
+        [
+          "even",
+          "though"
+        ],
+        [
+          "though",
+          "the"
+        ],
+        [
+          "the",
+          "store"
+        ],
+        [
+          "store",
+          "'s"
+        ],
+        [
+          "'s",
+          "supply"
+        ],
+        [
+          "supply",
+          "was"
+        ],
+        [
+          "was",
+          "limited"
+        ],
+        [
+          "limited",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "I",
+          "PRON"
+        ],
+        [
+          "found",
+          "VERB"
+        ],
+        [
+          "candy",
+          "NOUN"
+        ],
+        [
+          "to",
+          "PRT"
+        ],
+        [
+          "buy",
+          "VERB"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "even",
+          "ADV"
+        ],
+        [
+          "though",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "store",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "supply",
+          "NOUN"
+        ],
+        [
+          "was",
+          "VERB"
+        ],
+        [
+          "limited",
+          "VERB"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "I",
+        "candy",
+        "the store's supply"
+      ],
+      "sentiment": {
+        "neg": 0.16,
+        "neu": 0.84,
+        "pos": 0.0,
+        "compound": -0.2263
+      },
+      "word_frequency": [
+        {
+          "word": "found",
+          "count": 1
+        },
+        {
+          "word": "candy",
+          "count": 1
+        },
+        {
+          "word": "buy",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5
+    },
+    {
+      "sentence_number": 44,
+      "original_sentence": "The thin man left the restaurant after finishing his fine meal.",
+      "summarized_sentence": "The thin man left the restaurant after",
+      "tokens": [
+        "The",
+        "thin",
+        "man",
+        "left",
+        "the",
+        "restaurant",
+        "after",
+        "finishing",
+        "his",
+        "fine",
+        "meal",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "thin"
+        ],
+        [
+          "thin",
+          "man"
+        ],
+        [
+          "man",
+          "left"
+        ],
+        [
+          "left",
+          "the"
+        ],
+        [
+          "the",
+          "restaurant"
+        ],
+        [
+          "restaurant",
+          "after"
+        ],
+        [
+          "after",
+          "finishing"
+        ],
+        [
+          "finishing",
+          "his"
+        ],
+        [
+          "his",
+          "fine"
+        ],
+        [
+          "fine",
+          "meal"
+        ],
+        [
+          "meal",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "thin",
+          "ADJ"
+        ],
+        [
+          "man",
+          "NOUN"
+        ],
+        [
+          "left",
+          "VERB"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "restaurant",
+          "NOUN"
+        ],
+        [
+          "after",
+          "ADP"
+        ],
+        [
+          "finishing",
+          "VERB"
+        ],
+        [
+          "his",
+          "PRON"
+        ],
+        [
+          "fine",
+          "ADJ"
+        ],
+        [
+          "meal",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The thin man",
+        "the restaurant",
+        "his fine meal"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.847,
+        "pos": 0.153,
+        "compound": 0.2023
+      },
+      "word_frequency": [
+        {
+          "word": "thin",
+          "count": 1
+        },
+        {
+          "word": "man",
+          "count": 1
+        },
+        {
+          "word": "left",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6363636363636364
+    },
+    {
+      "sentence_number": 45,
+      "original_sentence": "Playing with the blue ball, the black dog chased it around the table.",
+      "summarized_sentence": "The black dog chased the blue ball",
+      "tokens": [
+        "Playing",
+        "with",
+        "the",
+        "blue",
+        "ball",
+        ",",
+        "the",
+        "black",
+        "dog",
+        "chased",
+        "it",
+        "around",
+        "the",
+        "table",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Playing",
+          "with"
+        ],
+        [
+          "with",
+          "the"
+        ],
+        [
+          "the",
+          "blue"
+        ],
+        [
+          "blue",
+          "ball"
+        ],
+        [
+          "ball",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "black"
+        ],
+        [
+          "black",
+          "dog"
+        ],
+        [
+          "dog",
+          "chased"
+        ],
+        [
+          "chased",
+          "it"
+        ],
+        [
+          "it",
+          "around"
+        ],
+        [
+          "around",
+          "the"
+        ],
+        [
+          "the",
+          "table"
+        ],
+        [
+          "table",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Playing",
+          "VERB"
+        ],
+        [
+          "with",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "blue",
+          "NOUN"
+        ],
+        [
+          "ball",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "black",
+          "ADJ"
+        ],
+        [
+          "dog",
+          "NOUN"
+        ],
+        [
+          "chased",
+          "VERB"
+        ],
+        [
+          "it",
+          "PRON"
+        ],
+        [
+          "around",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "table",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "the blue ball",
+        "the black dog",
+        "it",
+        "the table"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.87,
+        "pos": 0.13,
+        "compound": 0.2023
+      },
+      "word_frequency": [
+        {
+          "word": "playing",
+          "count": 1
+        },
+        {
+          "word": "blue",
+          "count": 1
+        },
+        {
+          "word": "ball",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5384615384615384
+    },
+    {
+      "sentence_number": 46,
+      "original_sentence": "Gathered for Thanksgiving, the family savored a hot, homemade meal.",
+      "summarized_sentence": "The family savored a hot,",
+      "tokens": [
+        "Gathered",
+        "for",
+        "Thanksgiving",
+        ",",
+        "the",
+        "family",
+        "savored",
+        "a",
+        "hot",
+        ",",
+        "homemade",
+        "meal",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Gathered",
+          "for"
+        ],
+        [
+          "for",
+          "Thanksgiving"
+        ],
+        [
+          "Thanksgiving",
+          ","
+        ],
+        [
+          ",",
+          "the"
+        ],
+        [
+          "the",
+          "family"
+        ],
+        [
+          "family",
+          "savored"
+        ],
+        [
+          "savored",
+          "a"
+        ],
+        [
+          "a",
+          "hot"
+        ],
+        [
+          "hot",
+          ","
+        ],
+        [
+          ",",
+          "homemade"
+        ],
+        [
+          "homemade",
+          "meal"
+        ],
+        [
+          "meal",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Gathered",
+          "VERB"
+        ],
+        [
+          "for",
+          "ADP"
+        ],
+        [
+          "Thanksgiving",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "family",
+          "NOUN"
+        ],
+        [
+          "savored",
+          "VERB"
+        ],
+        [
+          "a",
+          "DET"
+        ],
+        [
+          "hot",
+          "ADJ"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "homemade",
+          "ADJ"
+        ],
+        [
+          "meal",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [
+        [
+          "Thanksgiving",
+          "DATE"
+        ]
+      ],
+      "noun_phrases": [
+        "Thanksgiving",
+        "the family",
+        "a hot, homemade meal"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "gathered",
+          "count": 1
+        },
+        {
+          "word": "thanksgiving",
+          "count": 1
+        },
+        {
+          "word": "family",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5
+    },
+    {
+      "sentence_number": 47,
+      "original_sentence": "The woman's language studies were part of her graduation goals.",
+      "summarized_sentence": "The woman's language studies were part",
+      "tokens": [
+        "The",
+        "woman",
+        "'s",
+        "language",
+        "studies",
+        "were",
+        "part",
+        "of",
+        "her",
+        "graduation",
+        "goals",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "woman"
+        ],
+        [
+          "woman",
+          "'s"
+        ],
+        [
+          "'s",
+          "language"
+        ],
+        [
+          "language",
+          "studies"
+        ],
+        [
+          "studies",
+          "were"
+        ],
+        [
+          "were",
+          "part"
+        ],
+        [
+          "part",
+          "of"
+        ],
+        [
+          "of",
+          "her"
+        ],
+        [
+          "her",
+          "graduation"
+        ],
+        [
+          "graduation",
+          "goals"
+        ],
+        [
+          "goals",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "woman",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "language",
+          "NOUN"
+        ],
+        [
+          "studies",
+          "NOUN"
+        ],
+        [
+          "were",
+          "VERB"
+        ],
+        [
+          "part",
+          "NOUN"
+        ],
+        [
+          "of",
+          "ADP"
+        ],
+        [
+          "her",
+          "PRON"
+        ],
+        [
+          "graduation",
+          "NOUN"
+        ],
+        [
+          "goals",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The woman's language studies",
+        "part",
+        "her graduation goals"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "woman",
+          "count": 1
+        },
+        {
+          "word": "language",
+          "count": 1
+        },
+        {
+          "word": "studies",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6
+    },
+    {
+      "sentence_number": 48,
+      "original_sentence": "Color was altered when the bird flew into the corn field.",
+      "summarized_sentence": "The bird flew into the corn field",
+      "tokens": [
+        "Color",
+        "was",
+        "altered",
+        "when",
+        "the",
+        "bird",
+        "flew",
+        "into",
+        "the",
+        "corn",
+        "field",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Color",
+          "was"
+        ],
+        [
+          "was",
+          "altered"
+        ],
+        [
+          "altered",
+          "when"
+        ],
+        [
+          "when",
+          "the"
+        ],
+        [
+          "the",
+          "bird"
+        ],
+        [
+          "bird",
+          "flew"
+        ],
+        [
+          "flew",
+          "into"
+        ],
+        [
+          "into",
+          "the"
+        ],
+        [
+          "the",
+          "corn"
+        ],
+        [
+          "corn",
+          "field"
+        ],
+        [
+          "field",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Color",
+          "NOUN"
+        ],
+        [
+          "was",
+          "VERB"
+        ],
+        [
+          "altered",
+          "VERB"
+        ],
+        [
+          "when",
+          "ADV"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "bird",
+          "NOUN"
+        ],
+        [
+          "flew",
+          "VERB"
+        ],
+        [
+          "into",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "corn",
+          "NOUN"
+        ],
+        [
+          "field",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "Color",
+        "the bird",
+        "the corn field"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "word_frequency": [
+        {
+          "word": "color",
+          "count": 1
+        },
+        {
+          "word": "altered",
+          "count": 1
+        },
+        {
+          "word": "bird",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6363636363636364
+    },
+    {
+      "sentence_number": 49,
+      "original_sentence": "The school's victory was secured by the basketball player's shot.",
+      "summarized_sentence": "The school's victory was secured by",
+      "tokens": [
+        "The",
+        "school",
+        "'s",
+        "victory",
+        "was",
+        "secured",
+        "by",
+        "the",
+        "basketball",
+        "player",
+        "'s",
+        "shot",
+        "."
+      ],
+      "bigrams": [
+        [
+          "The",
+          "school"
+        ],
+        [
+          "school",
+          "'s"
+        ],
+        [
+          "'s",
+          "victory"
+        ],
+        [
+          "victory",
+          "was"
+        ],
+        [
+          "was",
+          "secured"
+        ],
+        [
+          "secured",
+          "by"
+        ],
+        [
+          "by",
+          "the"
+        ],
+        [
+          "the",
+          "basketball"
+        ],
+        [
+          "basketball",
+          "player"
+        ],
+        [
+          "player",
+          "'s"
+        ],
+        [
+          "'s",
+          "shot"
+        ],
+        [
+          "shot",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "The",
+          "DET"
+        ],
+        [
+          "school",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "victory",
+          "NOUN"
+        ],
+        [
+          "was",
+          "VERB"
+        ],
+        [
+          "secured",
+          "VERB"
+        ],
+        [
+          "by",
+          "ADP"
+        ],
+        [
+          "the",
+          "DET"
+        ],
+        [
+          "basketball",
+          "NOUN"
+        ],
+        [
+          "player",
+          "NOUN"
+        ],
+        [
+          "'s",
+          "PRT"
+        ],
+        [
+          "shot",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "The school's victory",
+        "the basketball player's shot"
+      ],
+      "sentiment": {
+        "neg": 0.0,
+        "neu": 0.769,
+        "pos": 0.231,
+        "compound": 0.4019
+      },
+      "word_frequency": [
+        {
+          "word": "school",
+          "count": 1
+        },
+        {
+          "word": "victory",
+          "count": 1
+        },
+        {
+          "word": "secured",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.6
+    },
+    {
+      "sentence_number": 50,
+      "original_sentence": "Heavy snowfall created slick, dangerous conditions on city roads.",
+      "summarized_sentence": "Heavy snowfall created slick, dangerous",
+      "tokens": [
+        "Heavy",
+        "snowfall",
+        "created",
+        "slick",
+        ",",
+        "dangerous",
+        "conditions",
+        "on",
+        "city",
+        "roads",
+        "."
+      ],
+      "bigrams": [
+        [
+          "Heavy",
+          "snowfall"
+        ],
+        [
+          "snowfall",
+          "created"
+        ],
+        [
+          "created",
+          "slick"
+        ],
+        [
+          "slick",
+          ","
+        ],
+        [
+          ",",
+          "dangerous"
+        ],
+        [
+          "dangerous",
+          "conditions"
+        ],
+        [
+          "conditions",
+          "on"
+        ],
+        [
+          "on",
+          "city"
+        ],
+        [
+          "city",
+          "roads"
+        ],
+        [
+          "roads",
+          "."
+        ]
+      ],
+      "pos_tags": [
+        [
+          "Heavy",
+          "NOUN"
+        ],
+        [
+          "snowfall",
+          "NOUN"
+        ],
+        [
+          "created",
+          "VERB"
+        ],
+        [
+          "slick",
+          "NOUN"
+        ],
+        [
+          ",",
+          "."
+        ],
+        [
+          "dangerous",
+          "ADJ"
+        ],
+        [
+          "conditions",
+          "NOUN"
+        ],
+        [
+          "on",
+          "ADP"
+        ],
+        [
+          "city",
+          "NOUN"
+        ],
+        [
+          "roads",
+          "NOUN"
+        ],
+        [
+          ".",
+          "."
+        ]
+      ],
+      "named_entities": [],
+      "noun_phrases": [
+        "Heavy snowfall",
+        "slick, dangerous conditions",
+        "city roads"
+      ],
+      "sentiment": {
+        "neg": 0.256,
+        "neu": 0.579,
+        "pos": 0.165,
+        "compound": -0.2732
+      },
+      "word_frequency": [
+        {
+          "word": "heavy",
+          "count": 1
+        },
+        {
+          "word": "snowfall",
+          "count": 1
+        },
+        {
+          "word": "created",
+          "count": 1
+        }
+      ],
+      "summarization_ratio": 0.5555555555555556
+    }
+  ],
+  "overall_analysis": {
+    "topic_modeling": [
+      "Topic 1: woman, language, graduation, shot, basketball",
+      "Topic 2: woman, clothes, deaf, cousin, meal",
+      "Topic 3: color, bird, corn, field, flew",
+      "Topic 4: table, snowfall, roads, slick, dangerous",
+      "Topic 5: thanksgiving, family, hot, homemade, candy"
+    ]
+  }
+}

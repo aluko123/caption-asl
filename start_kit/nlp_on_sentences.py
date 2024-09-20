@@ -24,6 +24,7 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('stopwords')
 nltk.download('vader_lexicon')
+nltk.download('universal_tagset')
 
 
 #load spacy model
@@ -47,7 +48,7 @@ def generate_ngrams(tokens, n):
 
 # Part-of-speech tagging
 def pos_tag(sentence):
-    return nltk.pos_tag(tokenize(sentence))
+    return nltk.pos_tag(tokenize(sentence), tagset='universal')
 
 # Named Entity Recognition
 def ner(sentence):
@@ -64,7 +65,7 @@ def extract_noun_phrases(sentence):
 # Text summarization
 def text_summarizer(sentence):
     summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=0)
-    return summarizer(sentence, max_length=100, min_length=15, do_sample=False)[0]['summary_text']
+    return summarizer(sentence, max_length=100, min_length=50, do_sample=False)[0]['summary_text']
 
 
 # Sentiment analysis
@@ -177,29 +178,59 @@ def process_sentences(input_file, output_file):
         sentences = infile.readlines()
         sentences = [sentence.strip() for sentence in sentences]
 
+        all_sentences_data = []
+
         #process each sentence
         for i, sentence in enumerate(sentences, 1):
-            outfile.write(f"Sentence {i}:\n")
-            outfile.write(f"sentence: {sentence}\n")
-            summarized_sentence = text_summarizer(sentence)
-            outfile.write(f"Summarized sentence: {summarized_sentence}\n")
             tokens = tokenize(sentence)
-            outfile.write(f"tokens: {tokens}\n")
             bigrams = generate_ngrams(tokens, 2)
-            outfile.write(f"bigrams: {bigrams}\n")
             pos_tags = pos_tag(sentence)
-            outfile.write(f"pos_tags: {pos_tags}\n")
-            outfile.write(f"named_entities: {ner(sentence)}\n")
+            named_entities = ner(sentence)
             noun_phrases = extract_noun_phrases(sentence)
-            outfile.write(f"noun_phrases: {noun_phrases}\n")
-            sentiment  = analyze_sentiment(sentence)
-            outfile.write(f"sentiment: {sentiment}\n")
-            outfile.write(f"word_frequency: {word_frequency(sentence).most_common(3)}\n")
-            outfile.write(f"Summarization Ratio: {len(summarized_sentence.split()) / len(sentence.split())}")
-            outfile.write("\n\n")
+            sentiment = analyze_sentiment(sentence)
+            word_freq = word_frequency(sentence).most_common(3)
+            summarized_sentence = text_summarizer(sentence)
+
+            sentence_data = {
+                "sentence_number": i,
+                "original_sentence": sentence,
+                "summarized_sentence": summarized_sentence,
+                "tokens": tokens,
+                "bigrams": bigrams,
+                "pos_tags": pos_tags,
+                "named_entities": named_entities,
+                "noun_phrases": noun_phrases,
+                "sentiment": sentiment,
+                "word_frequency": [{"word": word, "count": count} for word, count in word_freq],
+                "summarization_ratio": len(summarized_sentence.split()) / len(sentence.split())
+            }
+
+            all_sentences_data.append(sentence_data)
+
+
+
+
+            # outfile.write(f"Sentence {i}:\n")
+            # outfile.write(f"sentence: {sentence}\n")
+            # summarized_sentence = text_summarizer(sentence)
+            # outfile.write(f"Summarized sentence: {summarized_sentence}\n")
+            # tokens = tokenize(sentence)
+            # outfile.write(f"tokens: {tokens}\n")
+            # bigrams = generate_ngrams(tokens, 2)
+            # outfile.write(f"bigrams: {bigrams}\n")
+            # pos_tags = pos_tag(sentence)
+            # outfile.write(f"pos_tags: {pos_tags}\n")
+            # outfile.write(f"named_entities: {ner(sentence)}\n")
+            # noun_phrases = extract_noun_phrases(sentence)
+            # outfile.write(f"noun_phrases: {noun_phrases}\n")
+            # sentiment  = analyze_sentiment(sentence)
+            # outfile.write(f"sentiment: {sentiment}\n")
+            # outfile.write(f"word_frequency: {word_frequency(sentence).most_common(3)}\n")
+            # outfile.write(f"Summarization Ratio: {len(summarized_sentence.split()) / len(sentence.split())}")
+            # outfile.write("\n\n")
             
 
-
+            #Generate plots for sentence 1
             if i == 1:
                 plot_sentiment(sentiment)
                 plot_pos_distribution(pos_tags)
@@ -207,13 +238,25 @@ def process_sentences(input_file, output_file):
                 plot_noun_phrases(noun_phrases)
                 plot_bigram_network(bigrams[:20])
 
+        # Analyze all batches for topics covered
+        overall_analysis = {
+            "topic_modeling": topic_modeling(sentences)
+        }
 
-        #process the sentences
-        outfile.write("Overall Analysis:\n")
-        #outfile.write(f"Summary: {summarize(sentences)}\n\n")
-        outfile.write("Topic Modeling:\n")
-        for topic in topic_modeling(sentences):
-            outfile.write(f"{topic}\n")
+        output_data = {
+            "sentence_analysis": all_sentences_data,
+            "overall_analysis": overall_analysis
+        }
+
+        json.dump(output_data, outfile, indent=2)
+
+
+        # #process the sentences
+        # outfile.write("Overall Analysis:\n")
+        # #outfile.write(f"Summary: {summarize(sentences)}\n\n")
+        # outfile.write("Topic Modeling:\n")
+        # for topic in topic_modeling(sentences):
+        #     outfile.write(f"{topic}\n")
          
 
 # # Process each sentence
@@ -230,6 +273,6 @@ def process_sentences(input_file, output_file):
 
 if __name__ == "__main__":
     input_file = 'paragraph.txt'
-    output_file = "paragraph_nlp.txt"
+    output_file = "paragraph_nlp.json"
     process_sentences(input_file, output_file)
     print(f"Analysis complete. Results written to {output_file}")
