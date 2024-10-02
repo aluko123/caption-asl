@@ -1,4 +1,5 @@
 #from video_gloss_mapping import video_gloss_mapping
+from image_caption import captions
 import os
 import random
 import string
@@ -47,8 +48,8 @@ import numpy as np
 
 
 
-def create_text_clip(text, size, duration, font_size=40, color=(255, 255, 255), bg_color=(0, 0, 0, 0)):
-    img = Image.new('RGBA', size, bg_color)
+def create_text_clip(text, size, duration, font_size=35, color=(255, 255, 255), bg_color=(0, 0, 0, 128)):
+    img = Image.new('RGBA', size, (0, 0, 0, 0))  # create a transparent background
     draw = ImageDraw.Draw(img)
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", font_size)
 
@@ -57,13 +58,14 @@ def create_text_clip(text, size, duration, font_size=40, color=(255, 255, 255), 
     text_width, text_height = right - left, bottom - top
 
     #create a semi-transparent background for subtitles
-    bg_height = text_height + 20
-    background = Image.new('RGBA', (size[0], bg_height), bg_color)
-    img.paste(background, (0, size[1] - bg_height))
+    bg_height = text_height + 20        # added padding
+    bg = Image.new('RGBA', (size[0], bg_height), bg_color)
+    img.paste(bg, (0, size[1] - bg_height), bg)
 
     #make the subtitle show in bottom center
     position = ((size[0] - text_width) // 2, size[1] - text_height - 10)
     draw.text(position, text, font=font, fill=color)
+    
     return ImageClip(np.array(img)).set_duration(duration)
 
 def create_video_sequence(video_ids, videos_folder, caption):
@@ -131,7 +133,7 @@ def create_video_sequence(video_ids, videos_folder, caption):
         final_clip_with_subtitles = CompositeVideoClip([final_clip] + subtitles)
 
         #write final vid
-        final_clip_with_subtitles.write_videofile("final_sequence_with_subtitles.mp4")
+        final_clip_with_subtitles.write_videofile("final_sequence_with_subtitles_3.mp4")
 
         #close clips
         final_clip_with_subtitles.close()
@@ -159,7 +161,15 @@ mapping = load_gloss_to_video_mapping('video_gloss_mapping.txt')
 #print(mapping)
 
 #caption = "I want to read a book and drink water using my computer"
-caption="I lived with that woman upstairs four years, and before that time she had tried me indeed. Her character ripened and developed with frightful rapidity. Her vices sprang up fast and rank: they were so strong, only cruelty could check them, and I would not use cruelty"
+
+#sentence 1 from paragraph_nlp.txt
+#caption="I lived with that woman upstairs four years, and before that time she had tried me indeed. Her character ripened and developed with frightful rapidity. Her vices sprang up fast and rank: they were so strong, only cruelty could check them, and I would not use cruelty"
+
+#sentence 2 from paragraph_nlp.txt
+#caption = "Winston had time to learn every detail of her hand. He explored the long fingers, the shapely nails, the work-hardened palm with its row of callouses, the smooth flesh under the wrist. In the same instant it occurred to him that he did not know what colour the girl's eyes were."
+
+caption = captions
+
 caption = caption.translate(str.maketrans('', '', string.punctuation))
 output_path = "video_sequence.txt"
 video_folder = 'videos'
